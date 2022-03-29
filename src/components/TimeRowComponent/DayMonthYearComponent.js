@@ -21,7 +21,7 @@ export default function DayMonthYearComponent() {
         setCurrentMonth(_newDate.getMonth() + 1)
         setCurrentMonthName(monthNames[new Date().getMonth()])
         setCurrentYear(_newDate.getFullYear())
-      }, 1000) 
+      }, 1000) //TODO
     }, [])
 
 

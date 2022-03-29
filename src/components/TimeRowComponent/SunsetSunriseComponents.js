@@ -1,37 +1,13 @@
 import { StyleSheet, Text, View } from 'react-native'
-import React, { useEffect, useState } from 'react'
-import { getLocation } from '../../utils/permissions.js';
-import { getSunrise, getSunset } from 'sunrise-sunset-js';
-import format
-    from 'date-fns/format';
-export default function SunsetSunriseComponents() {
-    const [sunset, setSunset] = useState(0);
-    const [sunrise, setSunrise] = useState(0);
-    const [gps, setGps] = useState(0);
-
-    useEffect(() => {
-        async function getCoords() {
-            const data = await getLocation();
-            return data;
-        }
-        getCoords().then(data => setGps(data))
-    }, [])
-
-    useEffect(()=>{
-        if (!gps) return;
-        const lat = gps.coords.latitude;
-        const long = gps.coords.longitude;
-        setSunrise(format(getSunrise(lat, long), "h:mm aaa"));
-        setSunset(format(getSunset(lat, long), "h:mm aaa"));
-    },[gps])
-    
+import React from 'react'
 
 
+export default function SunsetSunriseComponents({data}) {
     return (
         <View style={styles.container}>
             <View style={styles.container__items}>
-                <Text style={styles.text}>Sunrise:{sunrise}</Text>
-                <Text style={styles.text}>Sunset:{sunset}</Text>
+                <Text style={styles.text}>Rise:{data[0]}</Text>
+                <Text style={styles.text}>Set:{data[1]}</Text>
             </View>
             <View style={styles.border__Gray__right}></View>
         </View>
