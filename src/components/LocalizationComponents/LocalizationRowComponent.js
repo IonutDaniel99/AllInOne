@@ -4,7 +4,7 @@ import React from 'react'
 export default function LocalizationRowComponent({gpsData}) {
   return (
     <View>
-      <Text>{console.log(gpsData)}</Text>
+      <Text>Manele</Text>
     </View>
   )
 }

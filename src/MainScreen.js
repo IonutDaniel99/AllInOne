@@ -16,12 +16,12 @@ export default function MainScreen() {
     getCoords().then(data => setGpsData(data)).catch(error => showToastShort(error.message))
   }, [])
 
-  console.log(gpsData)
-
   return (
     <View style={styles.mainScreen}>
       {gpsData ? <TimeRowComponent gpsData={gpsData}/> : <Text>Loading</Text>}
+      <View style={styles.border__Gray__bottom}></View>
       {gpsData ? <LocalizationRowComponent gpsData={gpsData}/> : <Text>Loading</Text>}
+
     </View>
   )
 }
@@ -29,5 +29,14 @@ export default function MainScreen() {
 const styles = StyleSheet.create({
   mainScreen: {
     marginHorizontal: 5
-  }
+  },
+
+  border__Gray__bottom: {
+    borderBottomWidth: 1,
+    borderBottomColor: 'gray',
+    minWidth: '80%',
+    height: 2,
+    marginVertical: 5,
+    marginHorizontal: 5
+  },
 })
