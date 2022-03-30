@@ -1,5 +1,5 @@
 import React from 'react'
-import { useEffect, useState } from 'react/cjs/react.development';
+import { useEffect, useState } from 'react';
 import { StyleSheet, View, Text} from 'react-native'
 
 export default function DayMonthYearComponent() {
@@ -28,7 +28,6 @@ export default function DayMonthYearComponent() {
 
     return (
         <View style={dayMonthYearStyles.container}>
-            <View style={dayMonthYearStyles.border__Gray__right}></View>
             <View style={dayMonthYearStyles.container__component}>
                 <Text style={dayMonthYearStyles.text}>Year</Text>
                 <Text style={dayMonthYearStyles.text}>{currentYear}</Text>
@@ -47,7 +46,7 @@ export default function DayMonthYearComponent() {
 
 const dayMonthYearStyles = StyleSheet.create({
     container: {
-        flex: 0.25,
+        flex: 0.3,
         flexDirection: 'row',
         justifyContent: 'space-evenly',
         alignItems: 'center',
@@ -61,12 +60,5 @@ const dayMonthYearStyles = StyleSheet.create({
         fontSize: 12,
         position: 'relative',
         bottom: 2,
-    },
-    border__Gray__right: {
-        borderRightWidth: 1,
-        borderRightColor: 'gray',
-        marginVertical: 5,
-        minHeight: '80%',
-        marginRight: 5
-    },
+    }
 })

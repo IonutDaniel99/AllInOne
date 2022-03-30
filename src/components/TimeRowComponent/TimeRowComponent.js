@@ -2,15 +2,17 @@
 import React, { useState, useEffect } from 'react'
 import { StyleSheet, View, Text } from 'react-native'
 
-import ClockComponent from './ClockComponent.js';
-import DayMonthYearComponent from './DayMonthYearComponent.js';
-import SunsetSunriseComponents from './SunsetSunriseComponents';
+import ClockComponent from './subComps/ClockComponent.js';
+import DayMonthYearComponent from './subComps/DayMonthYearComponent.js';
+import SunsetSunriseComponents from './subComps/SunsetSunriseComponents';
 
 import { getLocation } from '../../utils/permissions.js';
 import { showToastShort } from '../../utils/toast';
 import { getSunrise, getSunset } from 'sunrise-sunset-js';
 import format from 'date-fns/format';
 import { intervalToDuration } from 'date-fns';
+import DayNightHoursComponent from './subComps/DayNightHoursComponent';
+import SeasonDisplayComponent from './subComps/SeasonDisplayComponent';
 
 export default function TimeRowComponent() {
   const [gpsData, setGpsData] = useState();
@@ -38,34 +40,33 @@ export default function TimeRowComponent() {
     setSunsetDate(getSunset(lat, long));
   }, [gpsData]);
 
-  useEffect(()=>{
-    if(!sunriseDate || !sunsetDate) return;
+  useEffect(() => {
+    if (!sunriseDate || !sunsetDate) return;
     setSunrise(format(sunriseDate, "hh:mm aaa"));
     setSunset(format(sunsetDate, "hh:mm aaa"));
-    const dayHour = intervalToDuration({start: new Date(sunriseDate), end: new Date(sunsetDate)})
-    const nightHour = intervalToDuration({start: new Date(0,0,0,24,0,0,0), end: new Date(sunriseDate)})
-
+    const dayHour = intervalToDuration({ start: new Date(sunriseDate), end: new Date(sunsetDate) })
+    const template = { "days": 0, "hours": 23, "minutes": 59, "months": 0, "seconds": 0, "years": 0 };
     setDayTime(`${dayHour.hours}:${dayHour.minutes}`);
-    setNightTime(`${nightHour.hours}:${nightHour.minutes}`);
-  },[sunriseDate,sunsetDate])
+    setNightTime(`${template.hours - dayHour.hours}:${template.minutes - dayHour.minutes}`);
+  }, [sunriseDate, sunsetDate])
 
   return (
     <View>
       <View style={styles.TimeRowComponent}>
         <ClockComponent />
+        <View style={styles.border__Gray}></View>
         <View style={{ flex: 0.4 }}>
           <Text>Next Event</Text>
         </View>
+        <View style={styles.border__Gray}></View>
         <DayMonthYearComponent />
       </View>
       <View style={styles.TimeRowComponent}>
-        <SunsetSunriseComponents style={{ flex: 0.25 }} data={[sunrise, sunset]} />
-        <View style={{ flex: 0.4 }}>
-          <Text>Next Event</Text>
-        </View>
-        <View style={{ flex: 0.25 }}>
-          <Text>{dayTime}{nightTime}</Text>
-        </View>
+        <SunsetSunriseComponents data={[sunrise, sunset]} />
+        <View style={styles.border__Gray}></View>
+        <SeasonDisplayComponent />
+        <View style={styles.border__Gray}></View>
+        <DayNightHoursComponent data={[dayTime, nightTime]} />
       </View>
     </View>
   )
@@ -75,9 +76,17 @@ const styles = StyleSheet.create({
   TimeRowComponent: {
     minHeight: 40,
     maxHeight: 40,
-    justifyContent: 'space-around',
-    alignItems: 'flex-start',
+    justifyContent: 'space-evenly',
+    alignItems: 'center',
     flexDirection: 'row',
+  },
+
+  border__Gray: {
+    borderRightWidth: 1,
+    borderRightColor: 'gray',
+    minHeight: '80%',
+    marginVertical: 5,
+    marginHorizontal: 5
   },
 })
 

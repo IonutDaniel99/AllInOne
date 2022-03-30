@@ -1,7 +1,7 @@
 import React from 'react'
-import { useEffect, useState } from 'react/cjs/react.development';
+import { useEffect, useState } from 'react';
 import { StyleSheet, View, Text} from 'react-native'
-import { getTimeZoneOffset } from '../../utils/timeUtils';
+import { getTimeZoneOffset } from '../../../utils/timeUtils';
 
 
 export default function ClockComponent() {
@@ -31,14 +31,14 @@ export default function ClockComponent() {
 
     return (
         <View style={styles.container__time}>
-            <View style={styles.currTime}>
+            <View>
                 <Text style={styles.currTime__Text}>
                     {currentHour}:
                     {currentMin < 10 ? '0' + currentMin : currentMin}:
                     {currentSec < 10 ? '0' + currentSec : currentSec}
                 </Text>
             </View>
-            <View style={styles.container__AmPm__Timezone}>
+            <View>
                 <Text style={styles.AmPm}>
                     {currentAmPM}
                 </Text>
@@ -46,35 +46,21 @@ export default function ClockComponent() {
                     {currentTimeZone}
                 </Text>
             </View>
-            <View style={styles.border__Gray__left}></View>
         </View>
     )
 }
 
 const styles = StyleSheet.create({
     container__time: {
-        flex: 0.25,
-        justifyContent: 'space-between',
+        flex: 0.3,
+        justifyContent: 'space-evenly',
         alignItems: 'center',
         flexDirection: 'row',
-    },
-    currTime: {
-        color: 'white',
-        flex: 1,
-        justifyContent: 'center',
-        alignContent: 'center',
-        minWidth: 55,
-        maxWidth: 55,
     },
     currTime__Text: {
         color: 'white',
         fontSize: 13,
         marginLeft: 2
-    },
-    container__AmPm__Timezone: {
-        color: 'white',
-        flexDirection: 'column',
-        fontSize: 12,
     },
     AmPm: {
         color: 'white',
@@ -93,11 +79,4 @@ const styles = StyleSheet.create({
         bottom: 2,
     },
 
-    border__Gray__left: {
-        borderRightWidth: 1,
-        borderRightColor: 'gray',
-        minHeight: '80%',
-        marginVertical: 5,
-        marginLeft: 5,
-    },
 })

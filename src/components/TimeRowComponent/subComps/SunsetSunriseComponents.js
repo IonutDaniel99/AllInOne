@@ -6,17 +6,18 @@ export default function SunsetSunriseComponents({data}) {
     return (
         <View style={styles.container}>
             <View style={styles.container__items}>
-                <Text style={styles.text}>Rise:{data[0]}</Text>
-                <Text style={styles.text}>Set:{data[1]}</Text>
+                <Text style={styles.text}>Rise: {data[0]}</Text>
+                <Text style={styles.text}>Set: {data[1]}</Text>
             </View>
-            <View style={styles.border__Gray__right}></View>
         </View>
     )
 }
 
 const styles = StyleSheet.create({
     container: {
-        flex: 0.3,
+        flex: 0.25,
+        justifyContent: 'space-evenly',
+        alignItems: 'center',
         flexDirection: 'row',
     },
 
@@ -25,17 +26,9 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        marginHorizontal: 5
     },
     text: {
         color: 'white',
         fontSize: 12,
-    },
-    border__Gray__right: {
-        borderRightWidth: 1,
-        borderRightColor: 'gray',
-        marginVertical: 5,
-        minHeight: '80%',
-        marginRight: 5,
     }
 })
