@@ -6,16 +6,13 @@ import ClockComponent from './subComps/ClockComponent.js';
 import DayMonthYearComponent from './subComps/DayMonthYearComponent.js';
 import SunsetSunriseComponents from './subComps/SunsetSunriseComponents';
 
-import { getLocation } from '../../utils/permissions.js';
-import { showToastShort } from '../../utils/toast';
 import { getSunrise, getSunset } from 'sunrise-sunset-js';
 import format from 'date-fns/format';
 import { intervalToDuration } from 'date-fns';
 import DayNightHoursComponent from './subComps/DayNightHoursComponent';
 import SeasonDisplayComponent from './subComps/SeasonDisplayComponent';
 
-export default function TimeRowComponent() {
-  const [gpsData, setGpsData] = useState();
+export default function TimeRowComponent({gpsData}) {
   const [sunriseDate, setSunriseDate] = useState();
   const [sunsetDate, setSunsetDate] = useState();
 
@@ -26,14 +23,6 @@ export default function TimeRowComponent() {
   const [nightTime, setNightTime] = useState('-');
 
   useEffect(() => {
-    async function getCoords() {
-      return await getLocation();
-    }
-    getCoords().then(data => setGpsData(data)).catch(error => showToastShort(error.message))
-  }, [])
-
-  useEffect(() => {
-    if (!gpsData) return;
     const lat = gpsData.coords.latitude;
     const long = gpsData.coords.longitude;
     setSunriseDate(getSunrise(lat, long));
