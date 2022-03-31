@@ -5,6 +5,7 @@ import LocalizationRowComponent from './components/LocalizationComponents/Locali
 
 import { getLocation } from './utils/permissions.js';
 import { showToastShort } from './utils/toast';
+import ZodiacalComponent from './components/ZodiacalComponents/ZodiacalComponent';
 
 export default function MainScreen() {
   const [gpsData, setGpsData] = useState();
@@ -20,7 +21,9 @@ export default function MainScreen() {
     <View style={styles.mainScreen}>
       {gpsData ? <TimeRowComponent gpsData={gpsData}/> : <Text>Loading</Text>}
       <View style={styles.border__Gray__bottom}></View>
-      {gpsData ? <LocalizationRowComponent gpsData={gpsData}/> : <Text>Loading</Text>}
+      <ZodiacalComponent />
+      <View style={styles.border__Gray__bottom}></View>
+      {/* {gpsData ? <LocalizationRowComponent gpsData={gpsData}/> : <Text>Loading</Text>} */}
 
     </View>
   )
