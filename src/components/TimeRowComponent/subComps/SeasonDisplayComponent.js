@@ -2,6 +2,7 @@ import { View, Text, StyleSheet } from 'react-native'
 import React from 'react';
 import EntypoIcon from 'react-native-vector-icons/Entypo';
 import FaIcon5 from 'react-native-vector-icons/FontAwesome5';
+import {globalStyles} from './../../../styles/index.js';
 
 export default function SeasonDisplayComponent() {
 
@@ -67,7 +68,7 @@ const styles = StyleSheet.create({
     },
     text: {
         color: 'white',
-        fontSize: 10,
+        fontSize: globalStyles.font10,
     },
     border__Gray__left: {
         borderRightWidth: 1,

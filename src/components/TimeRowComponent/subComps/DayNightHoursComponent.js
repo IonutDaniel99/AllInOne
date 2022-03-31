@@ -1,5 +1,6 @@
 import { View, Text, StyleSheet } from 'react-native'
 import React from 'react'
+import {globalStyles} from './../../../styles/index.js';
 
 export default function DayNightHoursComponent({ data }) {
     return (
@@ -28,6 +29,6 @@ const styles = StyleSheet.create({
     },
     text: {
         color: 'white',
-        fontSize: 12,
+        fontSize: globalStyles.font10,
     }
 })

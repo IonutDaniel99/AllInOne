@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native'
+import {globalStyles} from './../../../styles/index.js';
 import React from 'react'
 
 
@@ -29,6 +30,6 @@ const styles = StyleSheet.create({
     },
     text: {
         color: 'white',
-        fontSize: 12,
+        fontSize: globalStyles.font10,
     }
 })

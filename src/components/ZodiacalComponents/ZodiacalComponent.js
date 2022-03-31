@@ -2,6 +2,9 @@ import { View, Text, StyleSheet, Linking } from 'react-native'
 import React from 'react'
 import EntypoIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { findChineseZodiac, findWesterZodiac } from '../../utils/getZodiac';
+import {globalStyles} from './../../styles/index.js';
+
+
 export default function ZodiacalComponent() {
     const date = new Date();
     const westernZodiac = findWesterZodiac(date);
@@ -18,7 +21,7 @@ export default function ZodiacalComponent() {
                 </View>
                 <View style={styles.europe__zodiacal__text__icon__items}>
                     <Text style={styles.europe__zodiacal__text}>{westernZodiac.name}</Text>
-                    <EntypoIcon name={westernZodiac.symbol} size={15} color={"#ffffff"} />
+                    <EntypoIcon name={westernZodiac.symbol} size={20} color={"#ffffff"} />
                     <Text style={styles.europe__zodiacal__text}>{westernZodiac.date}</Text>
                 </View>
             </View>
@@ -27,7 +30,7 @@ export default function ZodiacalComponent() {
                 <View style={styles.europe__zodiacal__text__icon__items}>
                     <Text style={styles.europe__zodiacal__text}>{chineseZodiac.zodiac.name}</Text>
                     {/* TODO */}
-                    <EntypoIcon name={"flower"} size={15} color={"#ffffff"} /> 
+                    {chineseZodiac.zodiac.symbol}
                     <Text style={styles.europe__zodiacal__text}>
                         {chineseZodiac.lastYear} - {chineseZodiac.year} - {chineseZodiac.nextYear}
                     </Text>
@@ -47,7 +50,7 @@ export default function ZodiacalComponent() {
 const styles = StyleSheet.create({
     container: {
         minHeight: 50,
-        maxHeight: 50,
+        maxHeight: 60,
         justifyContent: 'space-evenly',
         alignItems: 'center',
         flexDirection: 'row',
@@ -59,14 +62,14 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     europe__zodiacal__text: {
-        fontSize: 10,
+        fontSize: globalStyles.font10,
         color: "#fff"
     },
     europe__zodiacal__text__items: {
         alignItems: 'flex-start'
     },
     europe__zodiacal__text__link: {
-        fontSize: 10,
+        fontSize: globalStyles.font10,
         color: "#fff",
         textDecorationLine: 'underline'
     },
@@ -79,7 +82,7 @@ const styles = StyleSheet.create({
         alignItems: 'flex-end'
     },
     chinese__zodiacal__text__link: {
-        fontSize: 10,
+        fontSize: globalStyles.font10,
         color: "#fff",
         textDecorationLine: 'underline'
     },

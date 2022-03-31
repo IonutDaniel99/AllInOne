@@ -1,3 +1,11 @@
+
+import MCI from 'react-native-vector-icons/MaterialCommunityIcons';
+import MI from 'react-native-vector-icons/MaterialIcons';
+import Fa5 from 'react-native-vector-icons/FontAwesome5';
+import React from 'react';
+import { Image } from 'react-native'
+
+
 export function findWesterZodiac(date) {
     const days = [21, 20, 21, 21, 22, 22, 23, 24, 24, 24, 23, 22];
     const signs = ["Aquarius", "Pisces", "Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn"];
@@ -138,84 +146,84 @@ const ChineseZodiac = {
     "Rat": {
         name: "Rat",
         nameLink: "https://en.wikipedia.org/wiki/Rat_(zodiac)",
-        symbol: "",
+        symbol: <MCI name={"rodent"} size={20} color={"#ffffff"} />,
         sign: "Yang",
         element: "Water",
     },
     "Ox": {
         name: "Ox",
         nameLink: "https://en.wikipedia.org/wiki/Ox_(zodiac)",
-        symbol: "",
+        symbol: <MCI name={"cow"} size={20} color={"#ffffff"} />,
         sign: "Yin",
         element: "Earth",
     },
     "Tiger": {
         name: "Tiger",
         nameLink: "https://en.wikipedia.org/wiki/Tiger_(zodiac)",
-        symbol: "",
+        symbol: <Fa5 name={"cat"} size={20} color={"#ffffff"} />,
         sign: "Yang",
         element: "Wood",
     },
     "Rabbit": {
         name: "Rabbit",
         nameLink: "https://en.wikipedia.org/wiki/Rabbit_(zodiac)",
-        symbol: "",
+        symbol: <MCI name={"rabbit"} size={20} color={"#ffffff"} /> ,
         sign: "Yin",
         element: "Wood",
     },
     "Dragon": {
         name: "Dragon",
         nameLink: "https://en.wikipedia.org/wiki/Dragon_(zodiac)",
-        symbol: "",
+        symbol: <Fa5 name={"dragon"} size={20} color={"#ffffff"} /> ,
         sign: "Yang",
         element: "Earth",
     },
     "Snake": {
         name: "Snake",
         nameLink: "https://en.wikipedia.org/wiki/Snake_(zodiac)",
-        symbol: "",
+        symbol: <MCI name={"snake"} size={20} color={"#ffffff"} />,
         sign: "Yin",
         element: "Fire",
     },
     "Horse": {
         name: "Horse",
         nameLink: "https://en.wikipedia.org/wiki/Horse_(zodiac)",
-        symbol: "",
+        symbol: <Fa5 name={"horse-head"} size={20} color={"#ffffff"} />,
         sign: "Yang",
         element: "Fire",
     },
     "Goat": {
         name: "Goat",
         nameLink: "https://en.wikipedia.org/wiki/Goat_(zodiac)",
-        symbol: "",
+        symbol: <MI name={"goat"} size={20} color={"#ffffff"} />,
         sign: "Yin",
         element: "Earth",
     },
     "Monkey": {
         name: "Monkey",
         nameLink: "https://en.wikipedia.org/wiki/Monkey_(zodiac)",
-        symbol: "",
+        symbol: <Image source={require('../molecules/icons/zodiacIcons/monkey.png')} style={{width: 20, height: 20 }}/>,
         sign: "Yang",
         element: "Metal",
     },
     "Rooster": {
         name: "Rooster",
         nameLink: "https://en.wikipedia.org/wiki/Rooster_(zodiac)",
-        symbol: "",
+        symbol: <Image source={require('../molecules/icons/zodiacIcons/rooster.png')} style={{width: 20, height: 20 }}/>,
         sign: "Yin",
         element: "Metal",
     },
     "Dog": {
         name: "Dog",
         nameLink: "https://en.wikipedia.org/wiki/Dog_(zodiac)",
-        symbol: "",
+        symbol: <Fa5 name={"dog"} size={20} color={"#ffffff"} />,
         sign: "Yang",
         element: "Earth",
     },
     "Pig": {
         name: "Pig",
         nameLink: "https://en.wikipedia.org/wiki/Pig_(zodiac)",
-        symbol: "",
+        symbol: <MCI name={"pig-variant"} size={20} color={"#ffffff"} />,
         sign: "Yin",
         element: "Water",
     },

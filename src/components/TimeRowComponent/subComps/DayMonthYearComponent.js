@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
 import { StyleSheet, View, Text} from 'react-native'
+import {globalStyles} from './../../../styles/index.js';
 
 export default function DayMonthYearComponent() {
     const dayName = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
@@ -57,7 +58,7 @@ const dayMonthYearStyles = StyleSheet.create({
     },
     text: {
         color: 'white',
-        fontSize: 12,
+        fontSize: globalStyles.font10,
         position: 'relative',
         bottom: 2,
     }

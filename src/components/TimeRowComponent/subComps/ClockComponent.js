@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect, useState } from 'react';
 import { StyleSheet, View, Text} from 'react-native'
 import { getTimeZoneOffset } from '../../../utils/timeUtils';
+import {globalStyles} from './../../../styles/index.js';
 
 
 export default function ClockComponent() {
@@ -59,14 +60,14 @@ const styles = StyleSheet.create({
     },
     currTime__Text: {
         color: 'white',
-        fontSize: 13,
+        fontSize: globalStyles.font10,
         marginLeft: 2
     },
     AmPm: {
         color: 'white',
         display: 'flex',
         alignItems: 'flex-start',
-        fontSize: 10,
+        fontSize: globalStyles.font10,
         position: 'relative',
         top: 2,
     },
@@ -74,7 +75,7 @@ const styles = StyleSheet.create({
         color: 'white',
         display: 'flex',
         alignItems: 'flex-start',
-        fontSize: 10,
+        fontSize: globalStyles.font10,
         position: 'relative',
         bottom: 2,
     },
