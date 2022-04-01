@@ -60,14 +60,14 @@ const styles = StyleSheet.create({
     },
     currTime__Text: {
         color: 'white',
-        fontSize: globalStyles.font10,
+        fontSize: globalStyles.fontSmall,
         marginLeft: 2
     },
     AmPm: {
         color: 'white',
         display: 'flex',
         alignItems: 'flex-start',
-        fontSize: globalStyles.font10,
+        fontSize: globalStyles.fontSmall,
         position: 'relative',
         top: 2,
     },
@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
         color: 'white',
         display: 'flex',
         alignItems: 'flex-start',
-        fontSize: globalStyles.font10,
+        fontSize: globalStyles.fontSmall,
         position: 'relative',
         bottom: 2,
     },

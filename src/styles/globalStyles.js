@@ -1,3 +1,7 @@
 export default globalStyles = {
-    font10 : 11,
+    fontSmall : 11,
+    fontMedium : 14,
+    fontLarge : 16,
+
+    STATIC_TEXT: "...",
 }

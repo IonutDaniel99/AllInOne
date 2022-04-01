@@ -1,7 +1,4 @@
 
-import MCI from 'react-native-vector-icons/MaterialCommunityIcons';
-import MI from 'react-native-vector-icons/MaterialIcons';
-import Fa5 from 'react-native-vector-icons/FontAwesome5';
 import React from 'react';
 import { Image } from 'react-native'
 
@@ -142,60 +139,60 @@ const WesternZodiac = {
     },
 }
 
-const ChineseZodiac = {
+export const ChineseZodiac = {
     "Rat": {
         name: "Rat",
         nameLink: "https://en.wikipedia.org/wiki/Rat_(zodiac)",
-        symbol: <MCI name={"rodent"} size={20} color={"#ffffff"} />,
+        symbol: <Image source={require('../molecules/icons/zodiacIcons/rat.png')} style={{width: 20, height: 20 }}/>,
         sign: "Yang",
         element: "Water",
     },
     "Ox": {
         name: "Ox",
         nameLink: "https://en.wikipedia.org/wiki/Ox_(zodiac)",
-        symbol: <MCI name={"cow"} size={20} color={"#ffffff"} />,
+        symbol: <Image source={require('../molecules/icons/zodiacIcons/ox.png')} style={{width: 20, height: 20 }}/>,
         sign: "Yin",
         element: "Earth",
     },
     "Tiger": {
         name: "Tiger",
         nameLink: "https://en.wikipedia.org/wiki/Tiger_(zodiac)",
-        symbol: <Fa5 name={"cat"} size={20} color={"#ffffff"} />,
+        symbol: <Image source={require('../molecules/icons/zodiacIcons/tiger.png')} style={{width: 20, height: 20 }}/>,
         sign: "Yang",
         element: "Wood",
     },
     "Rabbit": {
         name: "Rabbit",
         nameLink: "https://en.wikipedia.org/wiki/Rabbit_(zodiac)",
-        symbol: <MCI name={"rabbit"} size={20} color={"#ffffff"} /> ,
+        symbol: <Image source={require('../molecules/icons/zodiacIcons/rabbit.png')} style={{width: 20, height: 20 }}/>,
         sign: "Yin",
         element: "Wood",
     },
     "Dragon": {
         name: "Dragon",
         nameLink: "https://en.wikipedia.org/wiki/Dragon_(zodiac)",
-        symbol: <Fa5 name={"dragon"} size={20} color={"#ffffff"} /> ,
+        symbol: <Image source={require('../molecules/icons/zodiacIcons/dragon.png')} style={{width: 20, height: 20 }}/>,
         sign: "Yang",
         element: "Earth",
     },
     "Snake": {
         name: "Snake",
         nameLink: "https://en.wikipedia.org/wiki/Snake_(zodiac)",
-        symbol: <MCI name={"snake"} size={20} color={"#ffffff"} />,
+        symbol: <Image source={require('../molecules/icons/zodiacIcons/snake.png')} style={{width: 20, height: 20 }}/>,
         sign: "Yin",
         element: "Fire",
     },
     "Horse": {
         name: "Horse",
         nameLink: "https://en.wikipedia.org/wiki/Horse_(zodiac)",
-        symbol: <Fa5 name={"horse-head"} size={20} color={"#ffffff"} />,
+        symbol: <Image source={require('../molecules/icons/zodiacIcons/horse.png')} style={{width: 20, height: 20 }}/>,
         sign: "Yang",
         element: "Fire",
     },
     "Goat": {
         name: "Goat",
         nameLink: "https://en.wikipedia.org/wiki/Goat_(zodiac)",
-        symbol: <MI name={"goat"} size={20} color={"#ffffff"} />,
+        symbol: <Image source={require('../molecules/icons/zodiacIcons/goat.png')} style={{width: 20, height: 20 }}/>,
         sign: "Yin",
         element: "Earth",
     },
@@ -216,14 +213,14 @@ const ChineseZodiac = {
     "Dog": {
         name: "Dog",
         nameLink: "https://en.wikipedia.org/wiki/Dog_(zodiac)",
-        symbol: <Fa5 name={"dog"} size={20} color={"#ffffff"} />,
+        symbol: <Image source={require('../molecules/icons/zodiacIcons/dog.png')} style={{width: 20, height: 20 }}/>,
         sign: "Yang",
         element: "Earth",
     },
     "Pig": {
         name: "Pig",
         nameLink: "https://en.wikipedia.org/wiki/Pig_(zodiac)",
-        symbol: <MCI name={"pig-variant"} size={20} color={"#ffffff"} />,
+        symbol: <Image source={require('../molecules/icons/zodiacIcons/pig.png')} style={{width: 20, height: 20 }}/>,
         sign: "Yin",
         element: "Water",
     },

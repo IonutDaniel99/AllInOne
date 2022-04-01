@@ -1,11 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React, {useState, useEffect} from 'react'
 import TimeRowComponent from './components/TimeRowComponent/TimeRowComponent'
-import LocalizationRowComponent from './components/LocalizationComponents/LocalizationRowComponent'
 
 import { getLocation } from './utils/permissions.js';
 import { showToastShort } from './utils/toast';
 import ZodiacalComponent from './components/ZodiacalComponents/ZodiacalComponent';
+import LoadingComponent from './reusableComponents/LoadingComponent';
 
 export default function MainScreen() {
   const [gpsData, setGpsData] = useState();
@@ -19,12 +19,12 @@ export default function MainScreen() {
 
   return (
     <View style={styles.mainScreen}>
-      {gpsData ? <TimeRowComponent gpsData={gpsData}/> : <Text>Loading</Text>}
+      {gpsData ? <TimeRowComponent gpsData={gpsData}/> : <LoadingComponent height={80}/>}
       <View style={styles.border__Gray__bottom}></View>
       <ZodiacalComponent />
       <View style={styles.border__Gray__bottom}></View>
       {/* {gpsData ? <LocalizationRowComponent gpsData={gpsData}/> : <Text>Loading</Text>} */}
-
+      <LoadingComponent height={50}/>
     </View>
   )
 }
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     borderBottomColor: 'gray',
     minWidth: '80%',
     height: 2,
-    marginVertical: 5,
+    marginVertical: 1,
     marginHorizontal: 5
   },
 })

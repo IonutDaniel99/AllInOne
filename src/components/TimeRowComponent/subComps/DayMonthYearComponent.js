@@ -1,28 +1,36 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
-import { StyleSheet, View, Text} from 'react-native'
-import {globalStyles} from './../../../styles/index.js';
+import { StyleSheet, View, Text } from 'react-native'
+import { globalStyles } from './../../../styles/index.js';
+import Midnight from 'react-native-midnight'
+import { showToastLong } from '../../../utils/toast';
 
 export default function DayMonthYearComponent() {
     const dayName = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
     const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
+    const [currentDay, setCurrentDay] = useState(globalStyles.STATIC_TEXT);
+    const [currentDayName, setCurrentDayName] = useState(globalStyles.STATIC_TEXT);
+    const [currentMonth, setCurrentMonth] = useState(globalStyles.STATIC_TEXT);
+    const [currentMonthName, setCurrentMonthName] = useState(globalStyles.STATIC_TEXT);
+    const [currentYear, setCurrentYear] = useState(globalStyles.STATIC_TEXT);
 
-    const [currentDay, setCurrentDay] = useState();
-    const [currentDayName, setCurrentDayName] = useState();
-    const [currentMonth, setCurrentMonth] = useState();
-    const [currentMonthName, setCurrentMonthName] = useState();
-    const [currentYear, setCurrentYear] = useState();
-    
     useEffect(() => {
-      setInterval(() => {
         const _newDate = new Date();
         setCurrentDay(_newDate.getDate())
         setCurrentDayName(dayName[new Date().getDay()])
         setCurrentMonth(_newDate.getMonth() + 1)
         setCurrentMonthName(monthNames[new Date().getMonth()])
         setCurrentYear(_newDate.getFullYear())
-      }, 1000) //TODO
+        const listener = Midnight.addListener(() => {
+            const _newDate = new Date();
+            setCurrentDay(_newDate.getDate())
+            setCurrentDayName(dayName[new Date().getDay()])
+            setCurrentMonth(_newDate.getMonth() + 1)
+            setCurrentMonthName(monthNames[new Date().getMonth()])
+            setCurrentYear(_newDate.getFullYear())
+        })
+        return () => listener.remove()
     }, [])
 
 
@@ -58,7 +66,7 @@ const dayMonthYearStyles = StyleSheet.create({
     },
     text: {
         color: 'white',
-        fontSize: globalStyles.font10,
+        fontSize: globalStyles.fontSmall,
         position: 'relative',
         bottom: 2,
     }

@@ -30,6 +30,6 @@ const styles = StyleSheet.create({
     },
     text: {
         color: 'white',
-        fontSize: globalStyles.font10,
+        fontSize: globalStyles.fontSmall,
     }
 })

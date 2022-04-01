@@ -49,7 +49,7 @@ export default function ZodiacalComponent() {
 
 const styles = StyleSheet.create({
     container: {
-        minHeight: 50,
+        minHeight: 60,
         maxHeight: 60,
         justifyContent: 'space-evenly',
         alignItems: 'center',
@@ -62,14 +62,14 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     europe__zodiacal__text: {
-        fontSize: globalStyles.font10,
+        fontSize: globalStyles.fontSmall,
         color: "#fff"
     },
     europe__zodiacal__text__items: {
         alignItems: 'flex-start'
     },
     europe__zodiacal__text__link: {
-        fontSize: globalStyles.font10,
+        fontSize: globalStyles.fontSmall,
         color: "#fff",
         textDecorationLine: 'underline'
     },
@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
         alignItems: 'flex-end'
     },
     chinese__zodiacal__text__link: {
-        fontSize: globalStyles.font10,
+        fontSize: globalStyles.fontSmall,
         color: "#fff",
         textDecorationLine: 'underline'
     },
