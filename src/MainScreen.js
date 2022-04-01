@@ -1,11 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React, {useState, useEffect} from 'react'
-import TimeRowComponent from './components/TimeRowComponent/TimeRowComponent'
+import TimeRowComponent from './components/TimeRowComponents/TimeRowComponent'
 
 import { getLocation } from './utils/permissions.js';
 import { showToastShort } from './utils/toast';
-import ZodiacalComponent from './components/ZodiacalComponents/ZodiacalComponent';
+import ZodiacalRowComponent from './components/ZodiacalRowComponents/ZodiacalRowComponent';
 import LoadingComponent from './reusableComponents/LoadingComponent';
+import LocalizationRowComponent from './components/LocalizationComponents/LocalizationRowComponent';
 
 export default function MainScreen() {
   const [gpsData, setGpsData] = useState();
@@ -21,10 +22,10 @@ export default function MainScreen() {
     <View style={styles.mainScreen}>
       {gpsData ? <TimeRowComponent gpsData={gpsData}/> : <LoadingComponent height={80}/>}
       <View style={styles.border__Gray__bottom}></View>
-      <ZodiacalComponent />
+      <ZodiacalRowComponent />
       <View style={styles.border__Gray__bottom}></View>
-      {/* {gpsData ? <LocalizationRowComponent gpsData={gpsData}/> : <Text>Loading</Text>} */}
-      <LoadingComponent height={50}/>
+      {gpsData ? <LocalizationRowComponent gpsData={gpsData}/> : <LoadingComponent height={50}/>}
+      
     </View>
   )
 }

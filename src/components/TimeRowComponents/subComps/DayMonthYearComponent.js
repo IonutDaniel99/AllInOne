@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import { StyleSheet, View, Text } from 'react-native'
 import { globalStyles } from './../../../styles/index.js';
 import Midnight from 'react-native-midnight'
-import { showToastLong } from '../../../utils/toast';
 
 export default function DayMonthYearComponent() {
     const dayName = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
@@ -15,20 +14,19 @@ export default function DayMonthYearComponent() {
     const [currentMonthName, setCurrentMonthName] = useState(globalStyles.STATIC_TEXT);
     const [currentYear, setCurrentYear] = useState(globalStyles.STATIC_TEXT);
 
-    useEffect(() => {
+    function refreshDate(){
         const _newDate = new Date();
         setCurrentDay(_newDate.getDate())
         setCurrentDayName(dayName[new Date().getDay()])
         setCurrentMonth(_newDate.getMonth() + 1)
         setCurrentMonthName(monthNames[new Date().getMonth()])
         setCurrentYear(_newDate.getFullYear())
+    }
+
+    useEffect(() => {
+        refreshDate();
         const listener = Midnight.addListener(() => {
-            const _newDate = new Date();
-            setCurrentDay(_newDate.getDate())
-            setCurrentDayName(dayName[new Date().getDay()])
-            setCurrentMonth(_newDate.getMonth() + 1)
-            setCurrentMonthName(monthNames[new Date().getMonth()])
-            setCurrentYear(_newDate.getFullYear())
+            refreshDate();
         })
         return () => listener.remove()
     }, [])

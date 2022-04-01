@@ -1,14 +1,14 @@
 /* eslint-disable */
 import React, { useState, useEffect } from 'react'
 import { StyleSheet, View, Text } from 'react-native'
+import { intervalToDuration } from 'date-fns';
+import { getSunrise, getSunset } from 'sunrise-sunset-js';
+import format from 'date-fns/format';
+
 
 import ClockComponent from './subComps/ClockComponent.js';
 import DayMonthYearComponent from './subComps/DayMonthYearComponent.js';
 import SunsetSunriseComponents from './subComps/SunsetSunriseComponents';
-
-import { getSunrise, getSunset } from 'sunrise-sunset-js';
-import format from 'date-fns/format';
-import { intervalToDuration } from 'date-fns';
 import DayNightHoursComponent from './subComps/DayNightHoursComponent';
 import SeasonDisplayComponent from './subComps/SeasonDisplayComponent';
 

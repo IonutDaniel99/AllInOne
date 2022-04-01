@@ -2,10 +2,10 @@ import { View, Text, StyleSheet, Linking } from 'react-native'
 import React from 'react'
 import EntypoIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { findChineseZodiac, findWesterZodiac } from '../../utils/getZodiac';
-import {globalStyles} from './../../styles/index.js';
+import {globalStyles} from '../../styles/index.js';
 
 
-export default function ZodiacalComponent() {
+export default function ZodiacalRowComponent() {
     const date = new Date();
     const westernZodiac = findWesterZodiac(date);
     const chineseZodiac = findChineseZodiac(date);
