@@ -1,0 +1,1978 @@
+{
+    "Afghanistan": {
+        "name": "Afghanistan",
+        "abbreviation": "AF",
+        "capital": "Kabul",
+        "currency_abb": "AFN",
+        "currency_full": "Afghanistan Afghani",
+        "population": 37172386
+    },
+    "Albania": {
+        "name": "Albania",
+        "abbreviation": "AL",
+        "capital": "Tirana",
+        "currency_abb": "ALL",
+        "currency_full": "Albanian Lek",
+        "population": 2866376
+    },
+    "Algeria": {
+        "name": "Algeria",
+        "abbreviation": "DZ",
+        "capital": "Alger",
+        "currency_abb": "DZD",
+        "currency_full": "Algerian Dinar",
+        "population": 42228429
+    },
+    "American Samoa": {
+        "name": "American Samoa",
+        "abbreviation": "AS",
+        "capital": "Fagatogo",
+        "currency_abb": "USD",
+        "currency_full": "US Dollar",
+        "population": 55465
+    },
+    "Andorra": {
+        "name": "Andorra",
+        "abbreviation": "AD",
+        "capital": "Andorra la Vella",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 77006
+    },
+    "Angola": {
+        "name": "Angola",
+        "abbreviation": "AO",
+        "capital": "Luanda",
+        "currency_abb": "AOA",
+        "currency_full": "Angolan Kwanza",
+        "population": 30809762
+    },
+    "Anguilla": {
+        "name": "Anguilla",
+        "abbreviation": "AI",
+        "capital": "The Valley",
+        "currency_abb": "XCD",
+        "currency_full": "East Caribbean Dollar",
+        "population": 15094
+    },
+    "Antarctica": {
+        "name": "Antarctica",
+        "abbreviation": "AQ",
+        "capital": null,
+        "currency_abb": "XCD",
+        "currency_full": "East Caribbean Dollar",
+        "population": 1106
+    },
+    "Antigua and Barbuda": {
+        "name": "Antigua and Barbuda",
+        "abbreviation": "AG",
+        "capital": "Saint John's",
+        "currency_abb": "XCD",
+        "currency_full": "East Caribbean Dollar",
+        "population": 96286
+    },
+    "Argentina": {
+        "name": "Argentina",
+        "abbreviation": "AR",
+        "capital": "Buenos Aires",
+        "currency_abb": "ARS",
+        "currency_full": "Argentine Peso",
+        "population": 44494502
+    },
+    "Armenia": {
+        "name": "Armenia",
+        "abbreviation": "AM",
+        "capital": "Yerevan",
+        "currency_abb": "AMD",
+        "currency_full": "Armenian Dram",
+        "population": 2951776
+    },
+    "Aruba": {
+        "name": "Aruba",
+        "abbreviation": "AW",
+        "capital": "Oranjestad",
+        "currency_abb": "AWG",
+        "currency_full": "Aruban Guilder",
+        "population": 105845
+    },
+    "Australia": {
+        "name": "Australia",
+        "abbreviation": "AU",
+        "capital": "Canberra",
+        "currency_abb": "AUD",
+        "currency_full": "Australian Dollar",
+        "population": 24982688
+    },
+    "Austria": {
+        "name": "Austria",
+        "abbreviation": "AT",
+        "capital": "Wien",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 8840521
+    },
+    "Azerbaijan": {
+        "name": "Azerbaijan",
+        "abbreviation": "AZ",
+        "capital": "Baku",
+        "currency_abb": "AZN",
+        "currency_full": "Azerbaijan New Manat",
+        "population": 9939800
+    },
+    "Bahamas": {
+        "name": "Bahamas",
+        "abbreviation": "BS",
+        "capital": "Nassau",
+        "currency_abb": "BSD",
+        "currency_full": "Bahamian Dollar",
+        "population": 385640
+    },
+    "Bahrain": {
+        "name": "Bahrain",
+        "abbreviation": "BH",
+        "capital": "al-Manama",
+        "currency_abb": "BHD",
+        "currency_full": "Bahraini Dinar",
+        "population": 1569439
+    },
+    "Bangladesh": {
+        "name": "Bangladesh",
+        "abbreviation": "BD",
+        "capital": "Dhaka",
+        "currency_abb": "BDT",
+        "currency_full": "Bangladeshi Taka",
+        "population": 161356039
+    },
+    "Barbados": {
+        "name": "Barbados",
+        "abbreviation": "BB",
+        "capital": "Bridgetown",
+        "currency_abb": "BBD",
+        "currency_full": "Barbados Dollar",
+        "population": 286641
+    },
+    "Belarus": {
+        "name": "Belarus",
+        "abbreviation": "BY",
+        "capital": "Minsk",
+        "currency_abb": "BYR",
+        "currency_full": "Belarussian Ruble",
+        "population": 9483499
+    },
+    "Belgium": {
+        "name": "Belgium",
+        "abbreviation": "BE",
+        "capital": "Bruxelles [Brussel]",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 11433256
+    },
+    "Belize": {
+        "name": "Belize",
+        "abbreviation": "BZ",
+        "capital": "Belmopan",
+        "currency_abb": "BZD",
+        "currency_full": "Belize Dollar",
+        "population": 383071
+    },
+    "Benin": {
+        "name": "Benin",
+        "abbreviation": "BJ",
+        "capital": "Porto-Novo",
+        "currency_abb": "XOF",
+        "currency_full": "CFA Franc BCEAO",
+        "population": 11485048
+    },
+    "Bermuda": {
+        "name": "Bermuda",
+        "abbreviation": "BM",
+        "capital": "Hamilton",
+        "currency_abb": "BMD",
+        "currency_full": "Bermudian Dollar",
+        "population": 63973
+    },
+    "Bhutan": {
+        "name": "Bhutan",
+        "abbreviation": "BT",
+        "capital": "Thimphu",
+        "currency_abb": "BTN",
+        "currency_full": "Bhutan Ngultrum",
+        "population": 754394
+    },
+    "Bolivia": {
+        "name": "Bolivia",
+        "abbreviation": "BO",
+        "capital": "La Paz",
+        "currency_abb": "BOB",
+        "currency_full": "Boliviano",
+        "population": 11353142
+    },
+    "Bosnia and Herzegovina": {
+        "name": "Bosnia and Herzegovina",
+        "abbreviation": "BA",
+        "capital": "Sarajevo",
+        "currency_abb": "BAM",
+        "currency_full": "Bosnia-Herzegovina Convertible Marka",
+        "population": 3323929
+    },
+    "Botswana": {
+        "name": "Botswana",
+        "abbreviation": "BW",
+        "capital": "Gaborone",
+        "currency_abb": "BWP",
+        "currency_full": "Botswana Pula",
+        "population": 2254126
+    },
+    "Bouvet Island": {
+        "name": "Bouvet Island",
+        "abbreviation": "BV",
+        "capital": null,
+        "currency_abb": "NOK",
+        "currency_full": "Norwegian Krone",
+        "population": 0
+    },
+    "Brazil": {
+        "name": "Brazil",
+        "abbreviation": "BR",
+        "capital": "BrasÃ­lia",
+        "currency_abb": "BRL",
+        "currency_full": "Brazilian Real",
+        "population": 209469333
+    },
+    "British Indian Ocean Territory": {
+        "name": "British Indian Ocean Territory",
+        "abbreviation": "IO",
+        "capital": null,
+        "currency_abb": "USD",
+        "currency_full": "US Dollar",
+        "population": 0
+    },
+    "Brunei": {
+        "name": "Brunei",
+        "abbreviation": "BN",
+        "capital": "Bandar Seri Begawan",
+        "currency_abb": "BND",
+        "currency_full": "Brunei Dollar",
+        "population": 428962
+    },
+    "Bulgaria": {
+        "name": "Bulgaria",
+        "abbreviation": "BG",
+        "capital": "Sofia",
+        "currency_abb": "BGN",
+        "currency_full": "Bulgarian Lev",
+        "population": 7025037
+    },
+    "Burkina Faso": {
+        "name": "Burkina Faso",
+        "abbreviation": "BF",
+        "capital": "Ouagadougou",
+        "currency_abb": "XOF",
+        "currency_full": "CFA Franc BCEAO",
+        "population": 19751535
+    },
+    "Burundi": {
+        "name": "Burundi",
+        "abbreviation": "BI",
+        "capital": "Bujumbura",
+        "currency_abb": "BIF",
+        "currency_full": "Burundi Franc",
+        "population": 11175378
+    },
+    "Cambodia": {
+        "name": "Cambodia",
+        "abbreviation": "KH",
+        "capital": "Phnom Penh",
+        "currency_abb": "KHR",
+        "currency_full": "Kampuchean Riel",
+        "population": 16249798
+    },
+    "Cameroon": {
+        "name": "Cameroon",
+        "abbreviation": "CM",
+        "capital": "Yaound",
+        "currency_abb": "XAF",
+        "currency_full": "CFA Franc BEAC",
+        "population": 25216237
+    },
+    "Canada": {
+        "name": "Canada",
+        "abbreviation": "CA",
+        "capital": "Ottawa",
+        "currency_abb": "CAD",
+        "currency_full": "Canadian Dollar",
+        "population": 37057765
+    },
+    "Cape Verde": {
+        "name": "Cape Verde",
+        "abbreviation": "CV",
+        "capital": "Praia",
+        "currency_abb": "CVE",
+        "currency_full": "Cape Verde Escudo",
+        "population": 543767
+    },
+    "Cayman Islands": {
+        "name": "Cayman Islands",
+        "abbreviation": "KY",
+        "capital": "George Town",
+        "currency_abb": "KYD",
+        "currency_full": "Cayman Islands Dollar",
+        "population": 64174
+    },
+    "Central African Republic": {
+        "name": "Central African Republic",
+        "abbreviation": "CF",
+        "capital": "Bangui",
+        "currency_abb": "XAF",
+        "currency_full": "CFA Franc BEAC",
+        "population": 4666377
+    },
+    "Chad": {
+        "name": "Chad",
+        "abbreviation": "TD",
+        "capital": "N'Djam",
+        "currency_abb": "XAF",
+        "currency_full": "Central African CFA franc",
+        "population": 15477751
+    },
+    "Chile": {
+        "name": "Chile",
+        "abbreviation": "CL",
+        "capital": "Santiago de Chile",
+        "currency_abb": "CLP",
+        "currency_full": "Chilean Peso",
+        "population": 18729160
+    },
+    "China": {
+        "name": "China",
+        "abbreviation": "CN",
+        "capital": "Peking",
+        "currency_abb": "CNY",
+        "currency_full": "Yuan Renminbi",
+        "population": 1392730000
+    },
+    "Christmas Island": {
+        "name": "Christmas Island",
+        "abbreviation": "CX",
+        "capital": "Flying Fish Cove",
+        "currency_abb": "AUD",
+        "currency_full": "Australian Dollar",
+        "population": 1402
+    },
+    "Cocos (Keeling) Islands": {
+        "name": "Cocos (Keeling) Islands",
+        "abbreviation": "CC",
+        "capital": "West Island",
+        "currency_abb": "AUD",
+        "currency_full": " Australian Dollar",
+        "population": 596
+    },
+    "Colombia": {
+        "name": "Colombia",
+        "abbreviation": "CO",
+        "capital": "Santaf",
+        "currency_abb": "COP",
+        "currency_full": "Colombian Peso",
+        "population": 49648685
+    },
+    "Comoros": {
+        "name": "Comoros",
+        "abbreviation": "KM",
+        "capital": "Moroni",
+        "currency_abb": "KMF",
+        "currency_full": "Comoros Franc",
+        "population": 832322
+    },
+    "Congo": {
+        "name": "Congo",
+        "abbreviation": "CG",
+        "capital": "Brazzaville",
+        "currency_abb": "XAF",
+        "currency_full": "CFA Franc BEAC",
+        "population": 5244363
+    },
+    "Cook Islands": {
+        "name": "Cook Islands",
+        "abbreviation": "CK",
+        "capital": "Avarua",
+        "currency_abb": "NZD",
+        "currency_full": "New Zealand Dollar",
+        "population": 17379
+    },
+    "Costa Rica": {
+        "name": "Costa Rica",
+        "abbreviation": "CR",
+        "capital": "San JosÃ©",
+        "currency_abb": "CRC",
+        "currency_full": "Costa Rican Colon",
+        "population": 4999441
+    },
+    "Croatia": {
+        "name": "Croatia",
+        "abbreviation": "HR",
+        "capital": "Zagreb",
+        "currency_abb": "HRK",
+        "currency_full": "Croatian Kuna",
+        "population": 4087843
+    },
+    "Cuba": {
+        "name": "Cuba",
+        "abbreviation": "CU",
+        "capital": "La Habana",
+        "currency_abb": "CUP",
+        "currency_full": "Cuban Peso",
+        "population": 11338138
+    },
+    "Cyprus": {
+        "name": "Cyprus",
+        "abbreviation": "CY",
+        "capital": "Nicosia",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 1189265
+    },
+    "Czech Republic": {
+        "name": "Czech Republic",
+        "abbreviation": "CZ",
+        "capital": "Praha",
+        "currency_abb": "CZK",
+        "currency_full": "Czech koruna",
+        "population": 10629928
+    },
+    "Denmark": {
+        "name": "Denmark",
+        "abbreviation": "DK",
+        "capital": "Copenhagen",
+        "currency_abb": "DKK",
+        "currency_full": "Danish Krone",
+        "population": 5793636
+    },
+    "Djibouti": {
+        "name": "Djibouti",
+        "abbreviation": "DJ",
+        "capital": "Djibouti",
+        "currency_abb": "DJF",
+        "currency_full": "Djibouti Franc",
+        "population": 958920
+    },
+    "Dominica": {
+        "name": "Dominica",
+        "abbreviation": "DM",
+        "capital": "Roseau",
+        "currency_abb": "XCD",
+        "currency_full": "East Caribbean Dollar",
+        "population": 71625
+    },
+    "Dominican Republic": {
+        "name": "Dominican Republic",
+        "abbreviation": "DO",
+        "capital": "Santo Domingo de Guzm",
+        "currency_abb": "DOP",
+        "currency_full": "Dominican Peso",
+        "population": 10627165
+    },
+    "East Timor": {
+        "name": "East Timor",
+        "abbreviation": "TP",
+        "capital": "Dili",
+        "currency_abb": "USD",
+        "currency_full": "United States Dollar",
+        "population": 1267972
+    },
+    "Ecuador": {
+        "name": "Ecuador",
+        "abbreviation": "EC",
+        "capital": "Quito",
+        "currency_abb": "ECS",
+        "currency_full": "Ecuador Sucre",
+        "population": 17084357
+    },
+    "Egypt": {
+        "name": "Egypt",
+        "abbreviation": "EG",
+        "capital": "Cairo",
+        "currency_abb": "EGP",
+        "currency_full": "Egyptian Pound",
+        "population": 98423595
+    },
+    "England": {
+        "name": "England",
+        "abbreviation": "SV",
+        "capital": "London",
+        "currency_abb": "SVC",
+        "currency_full": "El Salvador Colon",
+        "population": 6420744
+    },
+    "El Salvador": {
+        "name": "El Salvador",
+        "abbreviation": "GB",
+        "capital": "San Salvador",
+        "currency_abb": "GBP",
+        "currency_full": "Pound Sterling",
+        "population": 55619400
+    },
+    "Equatorial Guinea": {
+        "name": "Equatorial Guinea",
+        "abbreviation": "GQ",
+        "capital": "Malabo",
+        "currency_abb": "XAF",
+        "currency_full": "CFA Franc BEAC",
+        "population": 1308974
+    },
+    "Eritrea": {
+        "name": "Eritrea",
+        "abbreviation": "ER",
+        "capital": "Asmara",
+        "currency_abb": "ERN",
+        "currency_full": "Eritrean Nakfa",
+        "population": 6213972
+    },
+    "Estonia": {
+        "name": "Estonia",
+        "abbreviation": "EE",
+        "capital": "Tallinn",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 1321977
+    },
+    "Ethiopia": {
+        "name": "Ethiopia",
+        "abbreviation": "ET",
+        "capital": "Addis Abeba",
+        "currency_abb": "ETB",
+        "currency_full": "Ethiopian Birr",
+        "population": 109224559
+    },
+    "Falkland Islands": {
+        "name": "Falkland Islands",
+        "abbreviation": "FK",
+        "capital": "Stanley",
+        "currency_abb": "FKP",
+        "currency_full": "Falkland Islands pound",
+        "population": 2840
+    },
+    "Faroe Islands": {
+        "name": "Faroe Islands",
+        "abbreviation": "FO",
+        "capital": "TÃ³rshavn",
+        "currency_abb": "DKK",
+        "currency_full": " Danish Krone",
+        "population": 48497
+    },
+    "Fiji Islands": {
+        "name": "Fiji Islands",
+        "abbreviation": "FJ",
+        "capital": "Suva",
+        "currency_abb": "FJD",
+        "currency_full": "Fijian dollar",
+        "population": 883483
+    },
+    "Finland": {
+        "name": "Finland",
+        "abbreviation": "FI",
+        "capital": "Helsinki [Helsingfors]",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 5515525
+    },
+    "France": {
+        "name": "France",
+        "abbreviation": "FR",
+        "capital": "Paris",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 66977107
+    },
+    "French Guiana": {
+        "name": "French Guiana",
+        "abbreviation": "GF",
+        "capital": "Cayenne",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 290691
+    },
+    "French Polynesia": {
+        "name": "French Polynesia",
+        "abbreviation": "PF",
+        "capital": "Papeete",
+        "currency_abb": "XPF",
+        "currency_full": "?",
+        "population": 277679
+    },
+    "French Southern territories": {
+        "name": "French Southern territories",
+        "abbreviation": "TF",
+        "capital": null,
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 0
+    },
+    "Gabon": {
+        "name": "Gabon",
+        "abbreviation": "GA",
+        "capital": "Libreville",
+        "currency_abb": "XAF",
+        "currency_full": "CFA Franc BEAC",
+        "population": 2119275
+    },
+    "Gambia": {
+        "name": "Gambia",
+        "abbreviation": "GM",
+        "capital": "Banjul",
+        "currency_abb": "GMD",
+        "currency_full": "Gambian Dalasi",
+        "population": 2280102
+    },
+    "Georgia": {
+        "name": "Georgia",
+        "abbreviation": "GE",
+        "capital": "Tbilisi",
+        "currency_abb": "GEL",
+        "currency_full": "Georgian Lari",
+        "population": 3726549
+    },
+    "Germany": {
+        "name": "Germany",
+        "abbreviation": "DE",
+        "capital": "Berlin",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 82905782
+    },
+    "Ghana": {
+        "name": "Ghana",
+        "abbreviation": "GH",
+        "capital": "Accra",
+        "currency_abb": "GHS",
+        "currency_full": "Ghanaian Cedi",
+        "population": 29767108
+    },
+    "Gibraltar": {
+        "name": "Gibraltar",
+        "abbreviation": "GI",
+        "capital": "Gibraltar",
+        "currency_abb": "GIP",
+        "currency_full": "Gibraltar Pound",
+        "population": 33718
+    },
+    "Greece": {
+        "name": "Greece",
+        "abbreviation": "GR",
+        "capital": "Athenai",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 10731726
+    },
+    "Greenland": {
+        "name": "Greenland",
+        "abbreviation": "GL",
+        "capital": "Nuuk",
+        "currency_abb": "DKK",
+        "currency_full": "Danish Krone",
+        "population": 56025
+    },
+    "Grenada": {
+        "name": "Grenada",
+        "abbreviation": "GD",
+        "capital": "Saint George's",
+        "currency_abb": "XCD",
+        "currency_full": "East Carribean Dollar",
+        "population": 111454
+    },
+    "Guadeloupe": {
+        "name": "Guadeloupe",
+        "abbreviation": "GP",
+        "capital": "Basse-Terre",
+        "currency_abb": "EUR",
+        "currency_full": "?",
+        "population": 395700
+    },
+    "Guam": {
+        "name": "Guam",
+        "abbreviation": "GU",
+        "capital": "Aga",
+        "currency_abb": "USD",
+        "currency_full": "?",
+        "population": 165768
+    },
+    "Guatemala": {
+        "name": "Guatemala",
+        "abbreviation": "GT",
+        "capital": "Ciudad de Guatemala",
+        "currency_abb": "QTQ",
+        "currency_full": "Guatemalan Quetzal",
+        "population": 17247807
+    },
+    "Guernsey": {
+        "name": "Guernsey",
+        "abbreviation": "GG",
+        "capital": "Saint Peter Port",
+        "currency_abb": "GGP",
+        "currency_full": "Guernsey pound",
+        "population": 62792
+    },
+    "Guinea": {
+        "name": "Guinea",
+        "abbreviation": "GN",
+        "capital": "Conakry",
+        "currency_abb": "GNF",
+        "currency_full": "Guinea Franc",
+        "population": 12414318
+    },
+    "Guinea-Bissau": {
+        "name": "Guinea-Bissau",
+        "abbreviation": "GW",
+        "capital": "Bissau",
+        "currency_abb": "CFA",
+        "currency_full": "?",
+        "population": 1874309
+    },
+    "Guyana": {
+        "name": "Guyana",
+        "abbreviation": "GY",
+        "capital": "Georgetown",
+        "currency_abb": "GYD",
+        "currency_full": "Guyana Dollar",
+        "population": 779004
+    },
+    "Haiti": {
+        "name": "Haiti",
+        "abbreviation": "HT",
+        "capital": "Port-au-Prince",
+        "currency_abb": "HTG",
+        "currency_full": "Haitian Gourde",
+        "population": 11123176
+    },
+    "Heard Island and McDonald Islands": {
+        "name": "Heard Island and McDonald Islands",
+        "abbreviation": "HM",
+        "capital": null,
+        "currency_abb": "AUD",
+        "currency_full": "Australian Dollar",
+        "population": 0
+    },
+    "Holy See (Vatican City State)": {
+        "name": "Holy See (Vatican City State)",
+        "abbreviation": "VA",
+        "capital": "Citt",
+        "currency_abb": "EUR",
+        "currency_full": "?",
+        "population": 825
+    },
+    "Honduras": {
+        "name": "Honduras",
+        "abbreviation": "HN",
+        "capital": "Tegucigalpa",
+        "currency_abb": "HNL",
+        "currency_full": "Honduran Lempira",
+        "population": 9587522
+    },
+    "Hong Kong": {
+        "name": "Hong Kong",
+        "abbreviation": "HK",
+        "capital": "Victoria",
+        "currency_abb": "HKD",
+        "currency_full": "Hong Kong Dollar",
+        "population": 7451000
+    },
+    "Hungary": {
+        "name": "Hungary",
+        "abbreviation": "HU",
+        "capital": "Budapest",
+        "currency_abb": "HUF",
+        "currency_full": "Hungarian Forint",
+        "population": 9775564
+    },
+    "Iceland": {
+        "name": "Iceland",
+        "abbreviation": "IS",
+        "capital": "ReykjavÃ­k",
+        "currency_abb": "ISK",
+        "currency_full": "Iceland Krona",
+        "population": 352721
+    },
+    "India": {
+        "name": "India",
+        "abbreviation": "IN",
+        "capital": "New Delhi",
+        "currency_abb": "INR",
+        "currency_full": "Indian Rupee",
+        "population": 1352617328
+    },
+    "Indonesia": {
+        "name": "Indonesia",
+        "abbreviation": "ID",
+        "capital": "Jakarta",
+        "currency_abb": "IDR",
+        "currency_full": "Indonesian Rupiah",
+        "population": 267663435
+    },
+    "Iran": {
+        "name": "Iran",
+        "abbreviation": "IR",
+        "capital": "Tehran",
+        "currency_abb": "IRR",
+        "currency_full": "Iranian Rial",
+        "population": 81800269
+    },
+    "Iraq": {
+        "name": "Iraq",
+        "abbreviation": "IQ",
+        "capital": "Baghdad",
+        "currency_abb": "IQD",
+        "currency_full": "Iraqi Dinar",
+        "population": 38433600
+    },
+    "Ireland": {
+        "name": "Ireland",
+        "abbreviation": "IE",
+        "capital": "Dublin",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 4867309
+    },
+    "Israel": {
+        "name": "Israel",
+        "abbreviation": "IL",
+        "capital": "Jerusalem",
+        "currency_abb": "ILS",
+        "currency_full": "Israeli New Shekel",
+        "population": 8882800
+    },
+    "Isle of Man": {
+        "name": "Isle of Man",
+        "abbreviation": "IM",
+        "capital": "Douglas",
+        "currency_abb": "EUR",
+        "currency_full": "Manx Pound",
+        "population": 60421760
+    },
+    "Italy": {
+        "name": "Italy",
+        "abbreviation": "IT",
+        "capital": "Roma",
+        "currency_abb": "XOF",
+        "currency_full": "Euro",
+        "population": 25069229
+    },
+    "Jamaica": {
+        "name": "Jamaica",
+        "abbreviation": "JM",
+        "capital": "Kingston",
+        "currency_abb": "JMD",
+        "currency_full": "Jamaican Dollar",
+        "population": 2934855
+    },
+    "Japan": {
+        "name": "Japan",
+        "abbreviation": "JP",
+        "capital": "Tokyo",
+        "currency_abb": "JPY",
+        "currency_full": "Japanese Yen",
+        "population": 126529100
+    },
+    "Jersey": {
+        "name": "Jersey",
+        "abbreviation": "JE",
+        "capital": "Saint Helier",
+        "currency_abb": "JEP",
+        "currency_full": "Pound Sterling",
+        "population": 107800
+    },
+    "Jordan": {
+        "name": "Jordan",
+        "abbreviation": "JO",
+        "capital": "Amman",
+        "currency_abb": "JOD",
+        "currency_full": "Jordanian Dinar",
+        "population": 9956011
+    },
+    "Kazakhstan": {
+        "name": "Kazakhstan",
+        "abbreviation": "KZ",
+        "capital": "Astana",
+        "currency_abb": "KZT",
+        "currency_full": "Kazakhstani tenge",
+        "population": 18272430
+    },
+    "Kenya": {
+        "name": "Kenya",
+        "abbreviation": "KE",
+        "capital": "Nairobi",
+        "currency_abb": "KES",
+        "currency_full": "Kenyan Shilling",
+        "population": 51393010
+    },
+    "Kiribati": {
+        "name": "Kiribati",
+        "abbreviation": "KI",
+        "capital": "Bairiki",
+        "currency_abb": "AUD",
+        "currency_full": "Australian Dollar",
+        "population": 115847
+    },
+    "Kuwait": {
+        "name": "Kuwait",
+        "abbreviation": "KW",
+        "capital": "Kuwait",
+        "currency_abb": "KWD",
+        "currency_full": "Kuwaiti Dinar",
+        "population": 4137309
+    },
+    "Kyrgyzstan": {
+        "name": "Kyrgyzstan",
+        "abbreviation": "KG",
+        "capital": "Bishkek",
+        "currency_abb": "KGS",
+        "currency_full": "Som",
+        "population": 6322800
+    },
+    "Laos": {
+        "name": "Laos",
+        "abbreviation": "LA",
+        "capital": "Vientiane",
+        "currency_abb": "LAK",
+        "currency_full": "Lao Kip",
+        "population": 7061507
+    },
+    "Latvia": {
+        "name": "Latvia",
+        "abbreviation": "LV",
+        "capital": "Riga",
+        "currency_abb": "LVL",
+        "currency_full": "Latvian Lats",
+        "population": 1927174
+    },
+    "Lebanon": {
+        "name": "Lebanon",
+        "abbreviation": "LB",
+        "capital": "Beirut",
+        "currency_abb": "LBP",
+        "currency_full": "Lebanese Pound",
+        "population": 6848925
+    },
+    "Lesotho": {
+        "name": "Lesotho",
+        "abbreviation": "LS",
+        "capital": "Maseru",
+        "currency_abb": "LSL",
+        "currency_full": "Lesotho Loti",
+        "population": 2108132
+    },
+    "Liberia": {
+        "name": "Liberia",
+        "abbreviation": "LR",
+        "capital": "Monrovia",
+        "currency_abb": "LRD",
+        "currency_full": "Liberian Dollar",
+        "population": 4818977
+    },
+    "Libyan Arab Jamahiriya": {
+        "name": "Libyan Arab Jamahiriya",
+        "abbreviation": "LY",
+        "capital": "Tripoli",
+        "currency_abb": "LYD",
+        "currency_full": "?",
+        "population": 6678567
+    },
+    "Liechtenstein": {
+        "name": "Liechtenstein",
+        "abbreviation": "LI",
+        "capital": "Vaduz",
+        "currency_abb": "CHF",
+        "currency_full": "Swiss Franc",
+        "population": 37910
+    },
+    "Lithuania": {
+        "name": "Lithuania",
+        "abbreviation": "LT",
+        "capital": "Vilnius",
+        "currency_abb": "LTL",
+        "currency_full": "Lithuanian Litas",
+        "population": 2801543
+    },
+    "Luxembourg": {
+        "name": "Luxembourg",
+        "abbreviation": "LU",
+        "capital": "Luxembourg [Luxemburg/L",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 607950
+    },
+    "Macao": {
+        "name": "Macao",
+        "abbreviation": "MO",
+        "capital": "Macao",
+        "currency_abb": "MOP",
+        "currency_full": "Macanese pataca",
+        "population": 631636
+    },
+    "North Macedonia": {
+        "name": "North Macedonia",
+        "abbreviation": "MK",
+        "capital": "Skopje",
+        "currency_abb": "MKD",
+        "currency_full": "Denar",
+        "population": 2084367
+    },
+    "Madagascar": {
+        "name": "Madagascar",
+        "abbreviation": "MG",
+        "capital": "Antananarivo",
+        "currency_abb": "MGF",
+        "currency_full": "Malagasy Franc",
+        "population": 26262368
+    },
+    "Malawi": {
+        "name": "Malawi",
+        "abbreviation": "MW",
+        "capital": "Lilongwe",
+        "currency_abb": "MWK",
+        "currency_full": "Malawi Kwacha",
+        "population": 18143315
+    },
+    "Malaysia": {
+        "name": "Malaysia",
+        "abbreviation": "MY",
+        "capital": "Kuala Lumpur",
+        "currency_abb": "MYR",
+        "currency_full": "Malaysian Ringgit",
+        "population": 31528585
+    },
+    "Maldives": {
+        "name": "Maldives",
+        "abbreviation": "MV",
+        "capital": "Male",
+        "currency_abb": "MVR",
+        "currency_full": "Maldive Rufiyaa",
+        "population": 515696
+    },
+    "Mali": {
+        "name": "Mali",
+        "abbreviation": "ML",
+        "capital": "Bamako",
+        "currency_abb": "XOF",
+        "currency_full": "CFA Franc BCEAO",
+        "population": 19077690
+    },
+    "Malta": {
+        "name": "Malta",
+        "abbreviation": "MT",
+        "capital": "Valletta",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 484630
+    },
+    "Marshall Islands": {
+        "name": "Marshall Islands",
+        "abbreviation": "MH",
+        "capital": "Dalap-Uliga-Darrit",
+        "currency_abb": "USD",
+        "currency_full": "US Dollar",
+        "population": 58413
+    },
+    "Martinique": {
+        "name": "Martinique",
+        "abbreviation": "MQ",
+        "capital": "Fort-de-France",
+        "currency_abb": "EUR",
+        "currency_full": "?",
+        "population": 376480
+    },
+    "Mauritania": {
+        "name": "Mauritania",
+        "abbreviation": "MR",
+        "capital": "Nouakchott",
+        "currency_abb": "MRO",
+        "currency_full": "Mauritanian Ouguiya",
+        "population": 4403319
+    },
+    "Mauritius": {
+        "name": "Mauritius",
+        "abbreviation": "MU",
+        "capital": "Port-Louis",
+        "currency_abb": "MUR",
+        "currency_full": "Mauritius Rupee",
+        "population": 1265303
+    },
+    "Mayotte": {
+        "name": "Mayotte",
+        "abbreviation": "YT",
+        "capital": "Mamoutzou",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 270372
+    },
+    "Mexico": {
+        "name": "Mexico",
+        "abbreviation": "MX",
+        "capital": "Ciudad de M",
+        "currency_abb": "MXN",
+        "currency_full": "Mexican Nuevo Peso",
+        "population": 126190788
+    },
+    "Micronesia, Federated States of": {
+        "name": "Micronesia, Federated States of",
+        "abbreviation": "FM",
+        "capital": "Palikir",
+        "currency_abb": "USD",
+        "currency_full": "?",
+        "population": 112640
+    },
+    "Moldova": {
+        "name": "Moldova",
+        "abbreviation": "MD",
+        "capital": "Chisinau",
+        "currency_abb": "MDL",
+        "currency_full": "Moldovan Leu",
+        "population": 2706049
+    },
+    "Monaco": {
+        "name": "Monaco",
+        "abbreviation": "MC",
+        "capital": "Monaco-Ville",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 38682
+    },
+    "Mongolia": {
+        "name": "Mongolia",
+        "abbreviation": "MN",
+        "capital": "Ulan Bator",
+        "currency_abb": "MNT",
+        "currency_full": "Mongolian Tugrik",
+        "population": 3170208
+    },
+    "Montenegro": {
+        "name": "Montenegro",
+        "abbreviation": "ME",
+        "capital": "Podgorica",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 631219
+    },
+    "Montserrat": {
+        "name": "Montserrat",
+        "abbreviation": "MS",
+        "capital": "Plymouth",
+        "currency_abb": "XCD",
+        "currency_full": "East Caribbean Dollar",
+        "population": 5900
+    },
+    "Morocco": {
+        "name": "Morocco",
+        "abbreviation": "MA",
+        "capital": "Rabat",
+        "currency_abb": "MAD",
+        "currency_full": "Moroccan Dirham",
+        "population": 36029138
+    },
+    "Mozambique": {
+        "name": "Mozambique",
+        "abbreviation": "MZ",
+        "capital": "Maputo",
+        "currency_abb": "MZN",
+        "currency_full": "Mozambique Metical",
+        "population": 29495962
+    },
+    "Myanmar": {
+        "name": "Myanmar",
+        "abbreviation": "MM",
+        "capital": "Rangoon (Yangon)",
+        "currency_abb": "MMR",
+        "currency_full": "Myanmar Kyat",
+        "population": 53708395
+    },
+    "Namibia": {
+        "name": "Namibia",
+        "abbreviation": "NA",
+        "capital": "Windhoek",
+        "currency_abb": "NAD",
+        "currency_full": "Namibian Dollar",
+        "population": 2448255
+    },
+    "Nauru": {
+        "name": "Nauru",
+        "abbreviation": "NR",
+        "capital": "Yaren",
+        "currency_abb": "AUD",
+        "currency_full": "Australian Dollar",
+        "population": 12704
+    },
+    "Nepal": {
+        "name": "Nepal",
+        "abbreviation": "NP",
+        "capital": "Kathmandu",
+        "currency_abb": "NPR",
+        "currency_full": "Nepalese Rupee",
+        "population": 28087871
+    },
+    "Netherlands": {
+        "name": "Netherlands",
+        "abbreviation": "NL",
+        "capital": "Amsterdam",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 17231624
+    },
+    "Netherlands Antilles": {
+        "name": "Netherlands Antilles",
+        "abbreviation": "AN",
+        "capital": "Willemstad",
+        "currency_abb": "ANG",
+        "currency_full": "Netherlands Antillean Guilder",
+        "population": 227049
+    },
+    "New Caledonia": {
+        "name": "New Caledonia",
+        "abbreviation": "NC",
+        "capital": "Noum",
+        "currency_abb": "XPF",
+        "currency_full": "?",
+        "population": 284060
+    },
+    "New Zealand": {
+        "name": "New Zealand",
+        "abbreviation": "NZ",
+        "capital": "Wellington",
+        "currency_abb": "NZD",
+        "currency_full": "New Zealand Dollar",
+        "population": 4841000
+    },
+    "Nicaragua": {
+        "name": "Nicaragua",
+        "abbreviation": "NI",
+        "capital": "Managua",
+        "currency_abb": "NIO",
+        "currency_full": "Nicaraguan Cordoba Oro",
+        "population": 6465513
+    },
+    "Niger": {
+        "name": "Niger",
+        "abbreviation": "NE",
+        "capital": "Niamey",
+        "currency_abb": "XOF",
+        "currency_full": "CFA Franc BCEAO",
+        "population": 22442948
+    },
+    "Nigeria": {
+        "name": "Nigeria",
+        "abbreviation": "NG",
+        "capital": "Abuja",
+        "currency_abb": "NGN",
+        "currency_full": "Nigerian Naira",
+        "population": 195874740
+    },
+    "Niue": {
+        "name": "Niue",
+        "abbreviation": "NU",
+        "capital": "Alofi",
+        "currency_abb": "NZD",
+        "currency_full": "New Zealand Dollar",
+        "population": 1624
+    },
+    "Norfolk Island": {
+        "name": "Norfolk Island",
+        "abbreviation": "NF",
+        "capital": "Kingston",
+        "currency_abb": "AUD",
+        "currency_full": "Australian Dollar",
+        "population": 2169
+    },
+    "North Korea": {
+        "name": "North Korea",
+        "abbreviation": "KP",
+        "capital": "Pyongyang",
+        "currency_abb": "KPW",
+        "currency_full": "North Korean Won",
+        "population": 25549819
+    },
+    "Northern Ireland": {
+        "name": "Northern Ireland",
+        "abbreviation": "GB",
+        "capital": "Belfast",
+        "currency_abb": "GBP",
+        "currency_full": "?",
+        "population": 1885400
+    },
+    "Northern Mariana Islands": {
+        "name": "Northern Mariana Islands",
+        "abbreviation": "MP",
+        "capital": "Garapan",
+        "currency_abb": "USD",
+        "currency_full": "US Dollar",
+        "population": 56882
+    },
+    "Norway": {
+        "name": "Norway",
+        "abbreviation": "NO",
+        "capital": "Oslo",
+        "currency_abb": "NOK",
+        "currency_full": "Norwegian Krone",
+        "population": 5311916
+    },
+    "Oman": {
+        "name": "Oman",
+        "abbreviation": "OM",
+        "capital": "Masqat",
+        "currency_abb": "OMR",
+        "currency_full": "Omani Rial",
+        "population": 4829483
+    },
+    "Pakistan": {
+        "name": "Pakistan",
+        "abbreviation": "PK",
+        "capital": "Islamabad",
+        "currency_abb": "PKR",
+        "currency_full": "Pakistan Rupee",
+        "population": 212215030
+    },
+    "Palau": {
+        "name": "Palau",
+        "abbreviation": "PW",
+        "capital": "Koror",
+        "currency_abb": "USD",
+        "currency_full": "US Dollar",
+        "population": 17907
+    },
+    "Palestine": {
+        "name": "Palestine",
+        "abbreviation": "PS",
+        "capital": "Gaza",
+        "currency_abb": null,
+        "currency_full": "Palestine pound",
+        "population": 4569087
+    },
+    "Panama": {
+        "name": "Panama",
+        "abbreviation": "PA",
+        "capital": "Ciudad de PanamÃ¡",
+        "currency_abb": "PAB",
+        "currency_full": "Panamanian Balboa",
+        "population": 4176873
+    },
+    "Papua New Guinea": {
+        "name": "Papua New Guinea",
+        "abbreviation": "PG",
+        "capital": "Port Moresby",
+        "currency_abb": "PGK",
+        "currency_full": "Papua New Guinea Kina",
+        "population": 8606316
+    },
+    "Paraguay": {
+        "name": "Paraguay",
+        "abbreviation": "PY",
+        "capital": "AsunciÃ³n",
+        "currency_abb": "PYG",
+        "currency_full": "Paraguay Guarani",
+        "population": 6956071
+    },
+    "Peru": {
+        "name": "Peru",
+        "abbreviation": "PE",
+        "capital": "Lima",
+        "currency_abb": "PEN",
+        "currency_full": "Peruvian Nuevo Sol",
+        "population": 31989256
+    },
+    "Philippines": {
+        "name": "Philippines",
+        "abbreviation": "PH",
+        "capital": "Manila",
+        "currency_abb": "PHP",
+        "currency_full": "Philippine Peso",
+        "population": 106651922
+    },
+    "Pitcairn": {
+        "name": "Pitcairn",
+        "abbreviation": "PN",
+        "capital": "Adamstown",
+        "currency_abb": "NZD",
+        "currency_full": "?",
+        "population": 67
+    },
+    "Poland": {
+        "name": "Poland",
+        "abbreviation": "PL",
+        "capital": "Warszawa",
+        "currency_abb": "PLN",
+        "currency_full": "Polish Zloty",
+        "population": 37974750
+    },
+    "Portugal": {
+        "name": "Portugal",
+        "abbreviation": "PT",
+        "capital": "Lisboa",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 10283822
+    },
+    "Puerto Rico": {
+        "name": "Puerto Rico",
+        "abbreviation": "PR",
+        "capital": "San Juan",
+        "currency_abb": "USD",
+        "currency_full": "US Dollar",
+        "population": 3195153
+    },
+    "Qatar": {
+        "name": "Qatar",
+        "abbreviation": "QA",
+        "capital": "Doha",
+        "currency_abb": "QAR",
+        "currency_full": "Qatari Rial",
+        "population": 2781677
+    },
+    "Reunion": {
+        "name": "Reunion",
+        "abbreviation": "RE",
+        "capital": "Saint-Denis",
+        "currency_abb": "EUR",
+        "currency_full": "?",
+        "population": 859959
+    },
+    "Romania": {
+        "name": "Romania",
+        "abbreviation": "RO",
+        "capital": "Bucuresti",
+        "currency_abb": "RON",
+        "currency_full": "Romanian New Leu",
+        "population": 19466145
+    },
+    "Russian Federation": {
+        "name": "Russian Federation",
+        "abbreviation": "RU",
+        "capital": "Moscow",
+        "currency_abb": "RUB",
+        "currency_full": "Russian Ruble",
+        "population": 144478050
+    },
+    "Rwanda": {
+        "name": "Rwanda",
+        "abbreviation": "RW",
+        "capital": "Kigali",
+        "currency_abb": "RWF",
+        "currency_full": "Rwanda Franc",
+        "population": 12301939
+    },
+    "Saint Helena": {
+        "name": "Saint Helena",
+        "abbreviation": "SH",
+        "capital": "Jamestown",
+        "currency_abb": "SHP",
+        "currency_full": "St. Helena Pound",
+        "population": 6600
+    },
+    "Saint Kitts and Nevis": {
+        "name": "Saint Kitts and Nevis",
+        "abbreviation": "KN",
+        "capital": "Basseterre",
+        "currency_abb": "XCD",
+        "currency_full": "?",
+        "population": 52441
+    },
+    "Saint Lucia": {
+        "name": "Saint Lucia",
+        "abbreviation": "LC",
+        "capital": "Castries",
+        "currency_abb": "XCD",
+        "currency_full": "East Caribbean Dollar",
+        "population": 181889
+    },
+    "Saint Pierre and Miquelon": {
+        "name": "Saint Pierre and Miquelon",
+        "abbreviation": "PM",
+        "capital": "Saint-Pierre",
+        "currency_abb": "EUR",
+        "currency_full": " Euro",
+        "population": 5888
+    },
+    "Saint Vincent and the Grenadines": {
+        "name": "Saint Vincent and the Grenadines",
+        "abbreviation": "VC",
+        "capital": "Kingstown",
+        "currency_abb": "XCD",
+        "currency_full": "East Caribbean Dollar",
+        "population": 110210
+    },
+    "Samoa": {
+        "name": "Samoa",
+        "abbreviation": "WS",
+        "capital": "Apia",
+        "currency_abb": "WST",
+        "currency_full": "Samoan Tala",
+        "population": 196130
+    },
+    "San Marino": {
+        "name": "San Marino",
+        "abbreviation": "SM",
+        "capital": "San Marino",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 33785
+    },
+    "Sao Tome and Principe": {
+        "name": "Sao Tome and Principe",
+        "abbreviation": "ST",
+        "capital": "SÃ£o TomÃ©",
+        "currency_abb": "STD",
+        "currency_full": " Dobra",
+        "population": 211028
+    },
+    "Saudi Arabia": {
+        "name": "Saudi Arabia",
+        "abbreviation": "SA",
+        "capital": "Riyadh",
+        "currency_abb": "SAR",
+        "currency_full": "Saudi Riyal",
+        "population": 33699947
+    },
+    "Scotland": {
+        "name": "Scotland",
+        "abbreviation": "GB",
+        "capital": "Edinburgh",
+        "currency_abb": "GBP",
+        "currency_full": "Pound Sterling",
+        "population": 5424800
+    },
+    "Senegal": {
+        "name": "Senegal",
+        "abbreviation": "SN",
+        "capital": "Dakar",
+        "currency_abb": "XOF",
+        "currency_full": "CFA Franc BCEAO",
+        "population": 15854360
+    },
+    "Serbia": {
+        "name": "Serbia",
+        "abbreviation": "RS",
+        "capital": "Belgrade",
+        "currency_abb": "RSD",
+        "currency_full": "Serbian dinar",
+        "population": 6963764
+    },
+    "Seychelles": {
+        "name": "Seychelles",
+        "abbreviation": "SC",
+        "capital": "Victoria",
+        "currency_abb": "SCR",
+        "currency_full": "Seychelles Rupee",
+        "population": 96762
+    },
+    "Sierra Leone": {
+        "name": "Sierra Leone",
+        "abbreviation": "SL",
+        "capital": "Freetown",
+        "currency_abb": "SLL",
+        "currency_full": "Sierra Leone Leone",
+        "population": 7650154
+    },
+    "Singapore": {
+        "name": "Singapore",
+        "abbreviation": "SG",
+        "capital": "Singapore",
+        "currency_abb": "SGD",
+        "currency_full": "Singapore Dollar",
+        "population": 5638676
+    },
+    "Slovakia": {
+        "name": "Slovakia",
+        "abbreviation": "SK",
+        "capital": "Bratislava",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 5446771
+    },
+    "Slovenia": {
+        "name": "Slovenia",
+        "abbreviation": "SI",
+        "capital": "Ljubljana",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 2073894
+    },
+    "Solomon Islands": {
+        "name": "Solomon Islands",
+        "abbreviation": "SB",
+        "capital": "Honiara",
+        "currency_abb": "SBD",
+        "currency_full": "Solomon Islands Dollar",
+        "population": 652858
+    },
+    "Somalia": {
+        "name": "Somalia",
+        "abbreviation": "SO",
+        "capital": "Mogadishu",
+        "currency_abb": "SOS",
+        "currency_full": "Somali Shilling",
+        "population": 15008154
+    },
+    "South Africa": {
+        "name": "South Africa",
+        "abbreviation": "ZA",
+        "capital": "Pretoria",
+        "currency_abb": "ZAR",
+        "currency_full": "South African Rand",
+        "population": 57779622
+    },
+    "South Georgia and the South Sandwich Islands": {
+        "name": "South Georgia and the South Sandwich Islands",
+        "abbreviation": "GS",
+        "capital": null,
+        "currency_abb": "GBP",
+        "currency_full": "Pound Sterling",
+        "population": 30
+    },
+    "South Korea": {
+        "name": "South Korea",
+        "abbreviation": "KR",
+        "capital": "Seoul",
+        "currency_abb": "KRW",
+        "currency_full": "Korean Won",
+        "population": 51606633
+    },
+    "South Sudan": {
+        "name": "South Sudan",
+        "abbreviation": "SS",
+        "capital": "Juba",
+        "currency_abb": "SSP",
+        "currency_full": "South Sudan Pound",
+        "population": 10975920
+    },
+    "Spain": {
+        "name": "Spain",
+        "abbreviation": "ES",
+        "capital": "Madrid",
+        "currency_abb": "EUR",
+        "currency_full": "Euro",
+        "population": 46796540
+    },
+    "Sri Lanka": {
+        "name": "Sri Lanka",
+        "abbreviation": "LK",
+        "capital": null,
+        "currency_abb": "LKR",
+        "currency_full": "Sri Lankan rupee",
+        "population": 21670000
+    },
+    "Sudan": {
+        "name": "Sudan",
+        "abbreviation": "SD",
+        "capital": "Khartum",
+        "currency_abb": "SDG",
+        "currency_full": "Sudanese Pound",
+        "population": 41801533
+    },
+    "Suriname": {
+        "name": "Suriname",
+        "abbreviation": "SR",
+        "capital": "Paramaribo",
+        "currency_abb": "SRD",
+        "currency_full": "Surinam Dollar",
+        "population": 575991
+    },
+    "Svalbard and Jan Mayen": {
+        "name": "Svalbard and Jan Mayen",
+        "abbreviation": "SJ",
+        "capital": "Longyearbyen",
+        "currency_abb": "NOK",
+        "currency_full": "?",
+        "population": 2572
+    },
+    "Swaziland": {
+        "name": "Swaziland",
+        "abbreviation": "SZ",
+        "capital": "Mbabane",
+        "currency_abb": "SZL",
+        "currency_full": "Swaziland Lilangeni",
+        "population": 1136191
+    },
+    "Sweden": {
+        "name": "Sweden",
+        "abbreviation": "SE",
+        "capital": "Stockholm",
+        "currency_abb": "SEK",
+        "currency_full": "Swedish Krona",
+        "population": 10175214
+    },
+    "Switzerland": {
+        "name": "Switzerland",
+        "abbreviation": "CH",
+        "capital": "Bern",
+        "currency_abb": "CHF",
+        "currency_full": "Swiss Franc",
+        "population": 8513227
+    },
+    "Syria": {
+        "name": "Syria",
+        "abbreviation": "SY",
+        "capital": "Damascus",
+        "currency_abb": "SYP",
+        "currency_full": "Syrian Pound",
+        "population": 16906283
+    },
+    "Tajikistan": {
+        "name": "Tajikistan",
+        "abbreviation": "TJ",
+        "capital": "Dushanbe",
+        "currency_abb": "TJS",
+        "currency_full": "Tajik Somoni",
+        "population": 9100837
+    },
+    "Tanzania": {
+        "name": "Tanzania",
+        "abbreviation": "TZ",
+        "capital": "Dodoma",
+        "currency_abb": "TZS",
+        "currency_full": "Tanzanian Shilling",
+        "population": 56318348
+    },
+    "Thailand": {
+        "name": "Thailand",
+        "abbreviation": "TH",
+        "capital": "Bangkok",
+        "currency_abb": "THB",
+        "currency_full": "Thai Baht",
+        "population": 69428524
+    },
+    "The Democratic Republic of Congo": {
+        "name": "The Democratic Republic of Congo",
+        "abbreviation": "CD",
+        "capital": "Kinshasa",
+        "currency_abb": "CDF",
+        "currency_full": "Franc Congolais",
+        "population": 84068091
+    },
+    "Timor-Leste": {
+        "name": "Timor-Leste",
+        "abbreviation": "TL",
+        "capital": "Dili",
+        "currency_abb": "USD",
+        "currency_full": "United States Dollar",
+        "population": 1364072
+    },
+    "Togo": {
+        "name": "Togo",
+        "abbreviation": "TG",
+        "capital": "LomÃ©",
+        "currency_abb": "XOF",
+        "currency_full": "CFA Franc BCEAO",
+        "population": 7889094
+    },
+    "Tokelau": {
+        "name": "Tokelau",
+        "abbreviation": "TK",
+        "capital": "Fakaofo",
+        "currency_abb": "NZD",
+        "currency_full": "New Zealand Dollar",
+        "population": 1411
+    },
+    "Tonga": {
+        "name": "Tonga",
+        "abbreviation": "TO",
+        "capital": "Nuku'alofa",
+        "currency_abb": "TOP",
+        "currency_full": "Tongan Pa'anga",
+        "population": 103197
+    },
+    "Trinidad and Tobago": {
+        "name": "Trinidad and Tobago",
+        "abbreviation": "TT",
+        "capital": "Port-of-Spain",
+        "currency_abb": "TTD",
+        "currency_full": "Trinidad and Tobago Dollar",
+        "population": 1389858
+    },
+    "Tunisia": {
+        "name": "Tunisia",
+        "abbreviation": "TN",
+        "capital": "Tunis",
+        "currency_abb": "TND",
+        "currency_full": "Tunisian Dollar",
+        "population": 11565204
+    },
+    "Turkey": {
+        "name": "Turkey",
+        "abbreviation": "TR",
+        "capital": "Ankara",
+        "currency_abb": "TRY",
+        "currency_full": "Turkish Lira",
+        "population": 82319724
+    },
+    "Turkmenistan": {
+        "name": "Turkmenistan",
+        "abbreviation": "TM",
+        "capital": "Ashgabat",
+        "currency_abb": "TMT",
+        "currency_full": "Manat",
+        "population": 5850908
+    },
+    "Turks and Caicos Islands": {
+        "name": "Turks and Caicos Islands",
+        "abbreviation": "TC",
+        "capital": "Cockburn Town",
+        "currency_abb": "USD",
+        "currency_full": "?",
+        "population": 37665
+    },
+    "Tuvalu": {
+        "name": "Tuvalu",
+        "abbreviation": "TV",
+        "capital": "Funafuti",
+        "currency_abb": "AUD",
+        "currency_full": "Australian Dollar",
+        "population": 11508
+    },
+    "Uganda": {
+        "name": "Uganda",
+        "abbreviation": "UG",
+        "capital": "Kampala",
+        "currency_abb": "UGX",
+        "currency_full": "Uganda Shilling",
+        "population": 42723139
+    },
+    "Ukraine": {
+        "name": "Ukraine",
+        "abbreviation": "UA",
+        "capital": "Kyiv",
+        "currency_abb": "UAH",
+        "currency_full": "Ukraine Hryvnia",
+        "population": 44622516
+    },
+    "United Arab Emirates": {
+        "name": "United Arab Emirates",
+        "abbreviation": "AE",
+        "capital": "Abu Dhabi",
+        "currency_abb": "AED",
+        "currency_full": "Arab Emirates Dirham",
+        "population": 9630959
+    },
+    "United Kingdom": {
+        "name": "United Kingdom",
+        "abbreviation": "UK",
+        "capital": "London",
+        "currency_abb": "GBP",
+        "currency_full": "Pound Sterling",
+        "population": 66460344
+    },
+    "United States": {
+        "name": "United States",
+        "abbreviation": "US",
+        "capital": "Washington",
+        "currency_abb": "USD",
+        "currency_full": "United States Dollar",
+        "population": 326687501
+    },
+    "United States Minor Outlying Islands": {
+        "name": "United States Minor Outlying Islands",
+        "abbreviation": "UM",
+        "capital": null,
+        "currency_abb": "USD",
+        "currency_full": "United States Dollar",
+        "population": 300
+    },
+    "Uruguay": {
+        "name": "Uruguay",
+        "abbreviation": "UY",
+        "capital": "Montevideo",
+        "currency_abb": "UYU",
+        "currency_full": "Uruguayan Peso",
+        "population": 3449299
+    },
+    "Uzbekistan": {
+        "name": "Uzbekistan",
+        "abbreviation": "UZ",
+        "capital": "Toskent",
+        "currency_abb": "UZS",
+        "currency_full": "Uzbekistan Sum",
+        "population": 32955400
+    },
+    "Vanuatu": {
+        "name": "Vanuatu",
+        "abbreviation": "VU",
+        "capital": "Port-Vila",
+        "currency_abb": "VUV",
+        "currency_full": "Vanuatu Vatu",
+        "population": 292680
+    },
+    "Venezuela": {
+        "name": "Venezuela",
+        "abbreviation": "VE",
+        "capital": "Caracas",
+        "currency_abb": "VEF",
+        "currency_full": "Venezuelan Bolivar",
+        "population": 28870195
+    },
+    "Vietnam": {
+        "name": "Vietnam",
+        "abbreviation": "VN",
+        "capital": "Hanoi",
+        "currency_abb": "VND",
+        "currency_full": "Vietnamese Dong",
+        "population": 95540395
+    },
+    "Virgin Islands, British": {
+        "name": "Virgin Islands, British",
+        "abbreviation": "VG",
+        "capital": "Road Town",
+        "currency_abb": "USD",
+        "currency_full": "United States Dollar",
+        "population": 29802
+    },
+    "Virgin Islands, U.S.": {
+        "name": "Virgin Islands, U.S.",
+        "abbreviation": "VI",
+        "capital": "Charlotte Amalie",
+        "currency_abb": "USD",
+        "currency_full": "United States Dollar",
+        "population": 106977
+    },
+    "Wales": {
+        "name": "Wales",
+        "abbreviation": "GB",
+        "capital": "Cardiff",
+        "currency_abb": "GBP",
+        "currency_full": "Pound Sterling",
+        "population": 3139000
+    },
+    "Wallis and Futuna": {
+        "name": "Wallis and Futuna",
+        "abbreviation": "WF",
+        "capital": "Mata-Utu",
+        "currency_abb": "XPF",
+        "currency_full": "?",
+        "population": 15289
+    },
+    "Western Sahara": {
+        "name": "Western Sahara",
+        "abbreviation": "EH",
+        "capital": "El-Aai",
+        "currency_abb": "MAD",
+        "currency_full": "Moroccan Dirham",
+        "population": 652271
+    },
+    "Yemen": {
+        "name": "Yemen",
+        "abbreviation": "YE",
+        "capital": "Sanaa",
+        "currency_abb": "YER",
+        "currency_full": "Yemeni Rial",
+        "population": 28498687
+    },
+    "Zambia": {
+        "name": "Zambia",
+        "abbreviation": "ZM",
+        "capital": "Lusaka",
+        "currency_abb": "ZMW",
+        "currency_full": "Zambian Kwacha",
+        "population": 17351822
+    },
+    "Zimbabwe": {
+        "name": "Zimbabwe",
+        "abbreviation": "ZW",
+        "capital": "Harare",
+        "currency_abb": "ZWD",
+        "currency_full": "Zimbabwe Dollar",
+        "population": 14439018
+    }
+}

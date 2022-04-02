@@ -20,9 +20,9 @@ export default function MainScreen() {
 
   return (
     <View style={styles.mainScreen}>
-      {gpsData ? <TimeRowComponent gpsData={gpsData}/> : <LoadingComponent height={80}/>}
+      {/* {gpsData ? <TimeRowComponent gpsData={gpsData}/> : <LoadingComponent height={80}/>} */}
       <View style={styles.border__Gray__bottom}></View>
-      <ZodiacalRowComponent />
+      {/* <ZodiacalRowComponent /> */}
       <View style={styles.border__Gray__bottom}></View>
       {gpsData ? <LocalizationRowComponent gpsData={gpsData}/> : <LoadingComponent height={50}/>}
       
