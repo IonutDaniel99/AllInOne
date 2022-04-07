@@ -1,14 +1,54 @@
-import ContryData from './../data/country.json';
+import ConutryData from './../data/country_info.json';
+import CountryPoly from './../data/country_poly.json';
 
-export async function getCountry() {
-    return fetch("https://ip-api.io/json/")
-    .then((response) => response.json())
-    .then((json) => {
-      console.log(json)
-    })
-    .catch((error) => {
-      console.error(error);
-    });
+function isLeft(p0, p1, p2) {
+  return ((p1[0] - p0[0]) * (p2[1] - p0[1])
+    - (p2[0] - p0[0]) * (p1[1] - p0[1]));
 }
 
+function inPoly(p, coord) {
+  var winding = 0;
+  for (var i = 0; i < coord.length - 1; i++) {
+    if (coord[i][1] <= p[1]) {
+      if (coord[i + 1][1] > p[1]) {
+        if (isLeft(coord[i], coord[i + 1], p) > 0) {
+          ++winding;
+        }
+      }
+    } else {
+      if (coord[i + 1][1] <= p[1]) {
+        if (isLeft(coord[i], coord[i + 1], p) < 0) {
+          --winding;
+        }
+      }
+    }
+  }
+  return winding;
+}
+
+/**
+ * 
+ * @param {Array} p Long & Lat coords
+ * @returns 
+ */
+export async function getCountry(p) {
+  var country;
+  return CountryPoly.feat.some(function (obj) {
+    country = obj;
+    var polygons = obj.geometry.coordinates;
+    if (obj.geometry.type !== 'MultiPolygon') polygons = [polygons];
+    return polygons.some(function (polygon) {
+      return inPoly(p, polygon[0]);
+    });
+  }) ? country.properties.name : null;
+}
+
+
+export function getCountryInfo(name) {
+  for (const property in ConutryData) {
+    if(name === property){
+      return ConutryData[property];
+    }
+  }
+}
 

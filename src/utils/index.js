@@ -1,5 +1,5 @@
 export {default as getTimeZone} from './timeUtils'
-export {default as Permissions} from './permissions'
-export {default as ToastAndroid} from './toast'
+export {default as Permissions} from './reqPermissions'
+export {default as ToastAndroid} from './showToast'
 export {default as getZodiac} from './getZodiac'
 export {default as getCountry} from './getCountry'

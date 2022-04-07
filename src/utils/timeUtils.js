@@ -93,3 +93,7 @@ Math.degSin = function (d) {
 Math.degCos = function (d) {
     return Math.cos(Math.degRad(d));
 };
+
+
+const tick = Date.now();
+export const timeLog = (v) => console.log(`${v} \n Elapsed: ${Date.now() - tick}ms`);

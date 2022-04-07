@@ -2,7 +2,7 @@ import React from 'react';
 import { StatusBar } from 'react-native';
 import { StyleSheet, View} from 'react-native';
 import MainScreen from './src/MainScreen';
-import { requestLocationPermission } from './src/utils/permissions.js';
+import { requestLocationPermission } from './src/utils/reqPermissions';
 
 export default function App() {
   requestLocationPermission()
