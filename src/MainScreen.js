@@ -25,6 +25,7 @@ export default function MainScreen() {
       <ZodiacalRowComponent />
       <View style={styles.border__Gray__bottom}></View>
       {gpsData ? <LocalizationRowComponent gpsData={gpsData}/> : <LoadingComponent height={50}/>}
+      <View style={styles.border__Gray__bottom}></View>
       
     </View>
   )
