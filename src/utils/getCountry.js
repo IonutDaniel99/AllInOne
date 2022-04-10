@@ -43,6 +43,17 @@ export async function getCountry(p) {
   }) ? country.properties.name : null;
 }
 
+export function getCountryPolygon(countryName){
+  var country;
+  return CountryPoly.feat.some(function (obj) {
+    country = obj;
+    if(obj.properties.name === countryName){
+      var polygons = obj.geometry.coordinates;
+      // if (obj.geometry.type !== 'MultiPolygon') polygons = [polygons];
+      return polygons;
+    }
+  }) ? country.geometry.coordinates[0] : [];
+}
 
 export function getCountryInfo(name) {
   for (const property in ConutryData) {

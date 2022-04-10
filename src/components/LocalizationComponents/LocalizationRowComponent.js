@@ -8,22 +8,22 @@ export default function LocalizationRowComponent({ gpsData }) {
   const lat = gpsData.coords.latitude;
   const long = gpsData.coords.longitude;
 
-  const [country, setCountry] = useState({});
+  const [country, setCountry] = useState();
   const [flagPath, setFlagPath] = useState("");
 
   async function getCountryName() {
-    const countryName = await getCountry([long, lat]);
-    setCountry(getCountryInfo(countryName))
+    await getCountry([long, lat]).then(data => {
+      setCountry(getCountryInfo(data))
+    });
   }
   getCountryName();
 
-  useEffect(()=>{
-    if(!country) return;
+  useEffect(() => {
+    if (!country) return;
     const path = country.abbreviation;
-    setFlagPath(path)
-  },[country])
-  
-  
+    setFlagPath(path);
+  }, [country])
+
   function convertToMilions(labelValue) {
     // Nine Zeroes for Billions
     return Math.abs(Number(labelValue)) >= 1.0e+9
@@ -40,25 +40,28 @@ export default function LocalizationRowComponent({ gpsData }) {
 
   return (
     <View>
-      <View style={styles.main__component}>
-        <View style={{ flex: 0.3, justifyContent: 'space-evenly', alignItems: 'center' }}>
-          <Text style={styles.text}>Abbreviation: {country.abbreviation}</Text>
-          <Text style={styles.text}>Currency: {country.currency_abb}</Text>
-          <Text style={styles.text}>Population: {convertToMilions(country.population)}</Text>
+      {country &&
+        <View style={styles.main__component}>
+          <View style={{ flex: 0.3, justifyContent: 'space-evenly', alignItems: 'center' }}>
+            <Text style={styles.text}>Abbreviation: {country.abbreviation}</Text>
+            <Text style={styles.text}>Currency: {country.currency_abb}</Text>
+            <Text style={styles.text}>Population: {convertToMilions(country.population)}</Text>
+          </View>
+          <View style={{ flex: 0.3, justifyContent: 'space-evenly', alignItems: 'center' }}>
+            <Text style={styles.text}>{country.name}</Text>
+            {flagPath ?
+              <Image source={flagIcons[flagPath.toLowerCase()]} style={{ width: 20, height: 20 }} />
+              :
+              <Text style={styles.text}>?</Text>
+            }
+            <Text style={styles.text}>{country.capital}</Text>
+          </View>
+          <View style={{ flex: 0.3, justifyContent: 'space-evenly', alignItems: 'center' }}>
+            <Text style={styles.text}>Country Scheme</Text>
+            <Image source={require('./../../molecules/icons/flags/ad.png')} style={{ width: 36, height: 36, tintColor: "white" }} />
+          </View>
         </View>
-        <View style={{ flex: 0.3, justifyContent: 'space-evenly', alignItems: 'center' }}>
-          <Text style={styles.text}>{country.name}</Text>
-          {flagPath ?
-          <Image source={flagIcons[flagPath.toLowerCase()]} style={{width: 20, height: 20 }}/>
-          :
-          <Text style={styles.text}>?</Text>
-          }
-          <Text style={styles.text}>{country.capital}</Text>
-        </View>
-        <View style={{ flex: 0.3, justifyContent: 'space-evenly', alignItems: 'center' }}>
-          <Text style={styles.text}>Country Scheme</Text>
-        </View>
-      </View>
+      }
     </View>
   )
 }
