@@ -1,4 +1,5 @@
 import flagIcons from '../../molecules/icons/flagIcons'
+import blankCountries from '../../molecules/icons/blankCountries'
 import { View, Text, StyleSheet, Image } from 'react-native'
 import React, { useState, useEffect } from 'react'
 import { getCountry, getCountryInfo } from '../../utils/getCountry';
@@ -58,10 +59,11 @@ export default function LocalizationRowComponent({ gpsData }) {
           </View>
           <View style={{ flex: 0.3, justifyContent: 'space-evenly', alignItems: 'center' }}>
             <Text style={styles.text}>Country Scheme</Text>
-            <Image source={require('./../../molecules/icons/flags/ad.png')} style={{ width: 36, height: 36, tintColor: "white" }} />
+            <Image source={blankCountries[flagPath.toLowerCase()]} style={{ width: 36, height: 36, tintColor: "white" }} />
           </View>
         </View>
-      }
+      } 
+      {/* Cant retrieve country */}
     </View>
   )
 }
