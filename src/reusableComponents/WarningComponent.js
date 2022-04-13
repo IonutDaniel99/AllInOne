@@ -1,18 +1,17 @@
 import { Text, View } from 'react-native'
 import React from 'react'
-import { globalStyles } from '../styles'
 
-export default function LoadingComponent({ height }) {
+export default function WarningComponent({ height, text, fontSize }) {
     return (
         <View
             style={{
                 minHeight: height,
                 maxHeight: height,
-                flex: 1,
+                display: 'flex',
                 justifyContent: 'center',
-                alignItems: 'center'
+                alignItems: 'center',
             }}>
-            <Text style={{color: "#fff", fontSize: globalStyles.fontMedium}}>Loading...</Text>
+            <Text style={{color: "#fff", fontSize: fontSize}}>{text}</Text>
         </View>
     )
 }

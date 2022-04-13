@@ -45,7 +45,7 @@ export default function TimeRowComponent({gpsData}) {
         <ClockComponent />
         <View style={styles.border__Gray}></View>
         <View style={{ flex: 0.4 }}>
-          <Text>Next Event</Text>
+          <Text style={{color: 'white', textAlign:'center'}}>Work in progress</Text>
         </View>
         <View style={styles.border__Gray}></View>
         <DayMonthYearComponent />

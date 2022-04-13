@@ -232,7 +232,7 @@ const flagIcons = {
     ua: require("./flags/ua.png"),
     ug: require("./flags/ug.png"),
     um: require("./flags/um.png"),
-    us: require("./flags/us.png"),
+    usa: require("./flags/us.png"),
     uy: require("./flags/uy.png"),
     uz: require("./flags/uz.png"),
     va: require("./flags/va.png"),

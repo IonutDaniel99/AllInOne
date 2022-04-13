@@ -232,7 +232,7 @@ const blankCountries = {
     ua: require("./blankCountries/ua.png"),
     ug: require("./blankCountries/ug.png"),
     um: require("./blankCountries/us.png"),
-    us: require("./blankCountries/us.png"),
+    usa: require("./blankCountries/us.png"),
     uy: require("./blankCountries/uy.png"),
     uz: require("./blankCountries/uz.png"),
     va: require("./blankCountries/va.png"),
