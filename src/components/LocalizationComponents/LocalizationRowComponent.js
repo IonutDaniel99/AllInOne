@@ -46,8 +46,8 @@ export default function LocalizationRowComponent({ gpsData }) {
         <View style={styles.main__component}>
           <View style={{ flex: 0.33, justifyContent: 'space-evenly', alignItems: 'center' }}>
             <Text style={styles.text}>Currency: {country.currency_abb}</Text>
-            <Text style={styles.text}>Surface: ~{convertToMilions(country.area, "area")} km²</Text>
-            <Text style={styles.text}>Population: {convertToMilions(country.population, "pop")}</Text>
+            <Text style={styles.text}>Surface: {convertToMilions(country.area, "area")} km²</Text>
+            <Text style={styles.text}>Population: ~{convertToMilions(country.population, "pop")}</Text>
           </View>
           <View style={{ flex: 0.34, justifyContent: 'space-evenly', alignItems: 'center' }}>
             <Text style={styles.text__center}>{country.name} ({country.abbreviation})</Text>

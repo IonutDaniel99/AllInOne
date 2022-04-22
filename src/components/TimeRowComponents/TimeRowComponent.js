@@ -11,6 +11,7 @@ import DayMonthYearComponent from './subComps/DayMonthYearComponent.js';
 import SunsetSunriseComponents from './subComps/SunsetSunriseComponents';
 import DayNightHoursComponent from './subComps/DayNightHoursComponent';
 import SeasonDisplayComponent from './subComps/SeasonDisplayComponent';
+import CalendarDataComponent from './subComps/CalendarDataComponent';
 
 export default function TimeRowComponent({gpsData}) {
   const [sunriseDate, setSunriseDate] = useState();
@@ -44,9 +45,7 @@ export default function TimeRowComponent({gpsData}) {
       <View style={styles.TimeRowComponent}>
         <ClockComponent />
         <View style={styles.border__Gray}></View>
-        <View style={{ flex: 0.4 }}>
-          <Text style={{color: 'white', textAlign:'center'}}>Work in progress</Text>
-        </View>
+        <CalendarDataComponent />
         <View style={styles.border__Gray}></View>
         <DayMonthYearComponent />
       </View>

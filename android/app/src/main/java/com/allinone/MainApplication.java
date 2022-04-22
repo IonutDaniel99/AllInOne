@@ -2,6 +2,7 @@ package com.allinone;
 
 import android.app.Application;
 import android.content.Context;
+import com.calendarevents.RNCalendarEventsPackage;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactInstanceManager;
@@ -45,6 +46,14 @@ public class MainApplication extends Application implements ReactApplication {
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
     initializeFlipper(this, getReactNativeHost().getReactInstanceManager());
+  }
+
+  protected List<ReactPackage> getPackages() {
+    @SuppressWarnings("UnnecessaryLocalVariable")
+    List<ReactPackage> packages = new PackageList(this).getPackages();
+    // …
+    packages.add(new RNCalendarEventsPackage());
+    return packages;
   }
 
   /**
